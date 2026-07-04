@@ -16,7 +16,7 @@ This plan covers the proposed PropFlo marketing launch programme. It is based on
 | Project owner | Interon |
 | Client | PropFlo / Newco (legal entity to be confirmed) |
 | Project type | Controlled customer acquisition, conversion, partner development, and measurement programme |
-| Proposed project duration | Approximately 13 weeks (first 90-day controlled launch) |
+| Proposed project duration | Approximately 19–21 weeks (~4.5–5 months): Stage A preparation ~6–8 weeks, then Stage B 90-day live campaign |
 | Proposed start basis | On PropFlo proposal sign-off, deposit payment, completed discovery/compliance meeting, and confirmed compliance wording |
 | Project manager role | Interon Project Lead |
 | Client sponsor role | PropFlo Executive Sponsor |
@@ -282,9 +282,11 @@ If both are charged as written, PropFlo would pay twice for the website, landing
 
 ---
 
-## 7. Project Schedule (13 Weeks)
+## 7. Project Schedule (Two-Stage Model)
 
-Weeks are indicative and start once the project start basis in Section 1 is met. Overlap is shown where realistic. Dependencies are enforced: claims approved before launch; tracking tested before launch; lead handling ready before leads arrive; landing pages approved before traffic.
+The programme runs on two separate clocks. **Stage A (preparation)** is measured in weeks from kick-off; **Stage B (the true 90-day live campaign)** is measured in days from launch (Day 0). The 90-day performance period begins at launch, not at kick-off. Dependencies are enforced: claims approved before launch; tracking tested before launch; lead handling ready before leads arrive; landing pages approved before traffic. See PROJECT-SCHEDULE-VALIDATION.md for the full validation.
+
+### Stage A — Preparation and Implementation (~6–8 weeks)
 
 | Task | Start | End | Duration | Depends on | Milestone | Responsible |
 |---|---|---|---|---|---|---|
@@ -292,41 +294,65 @@ Weeks are indicative and start once the project start basis in Section 1 is met.
 | Discovery and compliance collection | W1 | W2 | 2 wk | Kick-off | Compliance confirmed | Interon Strategy + PropFlo Compliance |
 | Access and assets collection | W1 | W2 | 2 wk | Kick-off | — | PropFlo + Interon |
 | Strategy, audience, keyword research | W2 | W3 | 2 wk | Discovery | Strategy approved | Interon Strategy |
-| Approved claims and disclaimers | W2 | W3 | 2 wk | Compliance input | Claims approved | PropFlo Compliance |
-| Landing page copy and build | W3 | W6 | 4 wk | Claims, scope decision | Landing pages approved | WS4 owner (decision) |
-| Tracking build and test | W4 | W6 | 3 wk | Landing pages | Tracking approved | Interon Paid Media |
-| Lead handling and CRM setup | W4 | W6 | 3 wk | Discovery | Lead handling ready | PropFlo Sales + Interon |
+| Approved claims and disclaimers | W2 | W4 | 2–3 wk | Compliance input | Claims approved (gate) | PropFlo Compliance |
+| Google financial-services verification | W2 | W6 | parallel | Entity docs | Advertiser verified | Interon Paid Media |
+| Landing page copy and build (interim/platform) | W3 | W6 | 3–4 wk | Claims, scope decision | Landing pages approved (gate) | WS4 owner (decision) |
+| Tracking build and test | W4 | W6 | 3 wk | Landing pages | Tracking approved (gate) | Interon Paid Media |
+| Lead handling and CRM setup | W4 | W6 | 3 wk | Discovery | Lead handling ready (gate) | PropFlo Sales + Interon |
 | Paid search campaign build | W5 | W6 | 2 wk | Claims, tracking, pages | Campaigns approved | Interon Paid Media |
 | SEO foundation content | W4 | W7 | 4 wk | Claims | — | Interon Content |
 | Partner materials and framework | W4 | W7 | 4 wk | Claims | — | Interon Strategy |
-| Pre-launch testing | W6 | W6 | 1 wk | Pages, tracking, leads | Launch checklist signed | Interon + PropFlo |
-| Controlled launch (Google Search) | W7 | W7 | 1 wk | Checklist | Controlled launch | Interon Paid Media |
-| Weekly optimisation | W7 | W13 | 7 wk | Launch | — | Interon Paid Media |
-| Meta retargeting (if compliant) | W8 | W9 | 2 wk | Pixel, traffic | — | Interon Paid Media |
-| 30-day review | W10 | W10 | — | Launch data | 30-day review | Interon + PropFlo |
-| SEO and partner expansion | W8 | W12 | 5 wk | Foundation content | — | Interon Content |
-| 60-day review | W12 | W12 | — | Optimisation data | 60-day review | Interon + PropFlo |
-| 90-day review and scale decision | W13 | W13 | — | Full-period data | 90-day scale decision | Interon + PropFlo Sponsor |
+| Pre-launch testing | W6 | W7 | 1 wk | Pages, tracking, leads | Launch checklist signed | Interon + PropFlo |
+| Controlled launch | End Stage A | — | — | All gates passed | **Launch = Stage B Day 0** | Interon Paid Media |
 
-Scheduling note: the platform build is estimated at 3–5 months to go-live. If the marketing landing pages and tracking are delivered by that build (Section 5), the marketing launch cannot start until the build's Phase 2 site and tracking are live. The two timelines must be synchronised, or an interim landing page and tracking arrangement agreed. **Commercial and scheduling decision required.**
+### Stage B — 90-Day Controlled Live Campaign (Day 0 = launch)
+
+| Checkpoint | Timing | Purpose | Responsible |
+|---|---|---|---|
+| Launch | Day 0 | Go-live; daily monitoring begins | Interon Paid Media |
+| Early technical & search-term review | Day 7 | Fix tracking/disapprovals; first negatives | Interon Paid Media |
+| Lead-quality review | Day 14 | Relevance and contactability | Interon + PropFlo Sales |
+| Performance review (Month 1) | Day 30 | First cost-per-qualified-lead read | Interon + PropFlo |
+| Optimisation checkpoint | Day 45 | Mid-period tuning | Interon Paid Media |
+| Meta retargeting start (if traffic sufficient) | ~Day 30–60 | Re-engage visitors | Interon Paid Media |
+| Performance & channel review (Month 2) | Day 60 | Channel decisions | Interon + PropFlo |
+| Scale-readiness checkpoint | Day 75 | Confirm evidence for scaling | Interon + PropFlo |
+| Formal scale decision | Day 90 | Scale / maintain / restructure | Interon + PropFlo Sponsor |
+
+Scheduling note: the platform build is estimated at 3–5 months to go-live. If the marketing landing pages and tracking are delivered by that build (Section 5), either the launch waits for the build's Phase 2 site and tracking, or an interim landing page and tracking arrangement bridges the gap (recommended hybrid). Total duration from kick-off to Day 90 is ~19–21 weeks (~4.5–5 months). **Commercial and scheduling decision required (see PROJECT-SCHEDULE-VALIDATION.md, S1).**
 
 ---
 
 ## 8. Milestone Plan
 
+Stage A milestones are timed in weeks from kick-off; Stage B milestones in days from launch (Day 0).
+
+### Stage A milestones
+
 | Milestone | Proposed timing | Acceptance criteria |
 |---|---|---|
-| Project kick-off complete | W1 | Roles confirmed; schedule agreed; scope decision logged |
-| Compliance information confirmed | End W2 | Compliance questions answered; product, qualification, fee, timing detail provided |
-| Strategy approved | End W3 | Audience, offer, keyword approach signed off by PropFlo |
-| Tracking architecture approved | End W6 | Tracking plan approved; events and conversions defined |
-| Landing pages approved | End W6 | Copy, forms, disclaimers, consent approved by PropFlo |
-| Lead handling process ready | End W6 | Lead owner, response targets, stages, follow-up confirmed |
-| Campaigns approved | End W6 | Ad copy approved; platform verification underway/complete |
-| Controlled launch | W7 | Launch checklist signed; tracking test passed; leads routed |
-| 30-day performance review | W10 | Spend, leads, qualified leads, early cost per qualified lead reported |
-| 60-day optimisation review | W12 | Optimisation actions and lead-quality trends reviewed |
-| 90-day scale decision | W13 | Scale / maintain / restructure decision made on evidence |
+| Project kick-off complete | Stage A W1 | Roles confirmed; schedule agreed; scope decision logged |
+| Compliance information confirmed | Stage A ~W2 | Compliance questions answered; product, qualification, fee, timing detail provided |
+| Strategy approved | Stage A ~W3 | Audience, offer, keyword approach signed off by PropFlo |
+| Claims and disclaimers approved | Stage A ~W3–W4 | Approved and restricted claims and disclaimers signed off (hard gate) |
+| Tracking architecture approved | Stage A ~W6 | Tracking plan approved; events and conversions defined; end-to-end test passed (hard gate) |
+| Landing pages approved | Stage A ~W6 | Copy, forms, disclaimers, consent approved by PropFlo |
+| Lead handling process ready | Stage A ~W6 | Lead owner, response targets, stages, follow-up confirmed (hard gate) |
+| Campaigns approved | Stage A ~W6 | Ad copy approved; Google financial-services verification complete |
+| Launch checklist signed | Stage A ~W7 | Full pre-launch checklist passed |
+| Controlled launch (Stage B Day 0) | End of Stage A | Campaign live; tracking confirmed live; leads routed |
+
+### Stage B milestones (from launch)
+
+| Milestone | Proposed timing | Acceptance criteria |
+|---|---|---|
+| Day 7 technical & search-term review | Launch + 7 days | Tracking/disapprovals resolved; first negatives added |
+| Day 14 lead-quality review | Launch + 14 days | Lead relevance and contactability assessed |
+| Day 30 performance review | Launch + 30 days | Month-1 report; early cost per qualified lead |
+| Day 45 optimisation checkpoint | Launch + 45 days | Optimisation actions logged |
+| Day 60 performance & channel review | Launch + 60 days | Month-2 report; channel decisions |
+| Day 75 scale-readiness checkpoint | Launch + 75 days | Scale-readiness assessed |
+| Day 90 scale decision | Launch + 90 days | Scale / maintain / restructure decision on full-period data |
 
 ---
 
@@ -375,17 +401,22 @@ R = Responsible · A = Accountable · C = Consulted · I = Informed. Roles used,
 
 Figures are taken from the current marketing proposal documents. They are working recommendations, ex VAT unless stated, and subject to the overlap decision in Section 5. The platform-build figures are shown separately because they are exploratory estimates, not a finalised marketing cost.
 
-### Marketing programme — recommended (ex VAT)
+### Marketing programme on the two-stage model (ex VAT)
 
-| Item | Month 1 | Month 2 | Month 3 | 90-day total |
-|---|---:|---:|---:|---:|
-| Once-off strategy and setup | R55,000 | R0 | R0 | R55,000 |
-| Website / landing page set | R35,000 | R0 | R0 | R35,000 |
-| Monthly management | R32,000 | R32,000 | R32,000 | R96,000 |
-| Suggested ad spend (to platforms) | R25,000 | R30,000 | R40,000 | R95,000 |
-| Monthly estimate | R147,000 | R62,000 | R72,000 | **R281,000** |
+Costs are re-based onto Stage A (preparation) and Stage B (the 90-day live campaign). Management and ad spend begin at launch (Stage B Day 0), not during preparation.
 
-### Recurring cost after the first 90 days (ex VAT)
+| Stage | Item | Ex VAT | Timing |
+|---|---|---:|---|
+| Stage A (~6–8 wks) | Strategy and setup | R40,000–R55,000 | Once-off; net depends on overlap decision |
+| Stage A | Landing pages | R0–R35,000 | R0 if platform build/interim delivers; up to R35,000 if marketing builds |
+| Stage A | Preparation management | R0 (recommended) | Or a prep-coordination fee — decision |
+| Stage B (90-day live) | Monthly management | R96,000 | 3 × R32,000, from launch (Day 0) |
+| Stage B | Ad spend (to platforms) | R95,000–R100,000 | Phased ~R25,000 → R30,000–R35,000 → R40,000 |
+| **Total (kick-off → Day 90)** | | **R231,000–R281,000** | Over ~4.5–5 months |
+
+See BUDGET-VALIDATION.md for the full analysis and Decisions B1–B7.
+
+### Recurring cost after Day 90 (ex VAT)
 - Monthly management: R32,000 per month (recommended option).
 - Ad spend: R25,000–R40,000+ per month, paid to platforms, scaled on performance.
 - Third-party costs: hosting, domains, CRM, email, WhatsApp, call tracking — paid by PropFlo.
@@ -393,9 +424,10 @@ Figures are taken from the current marketing proposal documents. They are workin
 
 ### Pricing conflicts — do not resolve silently
 
-1. **Website / landing pages / tracking / CRM overlap.** The R35,000 landing-page set and parts of the R55,000 setup overlap the low-code build's Phase 2 (~R84,000 for site, forms, Meta pages, pixels, CRM integration). Charging both double-charges roughly R45,000–R55,000. **Commercial decision required.**
-2. **VAT basis mismatch.** Marketing figures are ex VAT; the build estimates were shown incl VAT. A combined client number must use one consistent basis. **Commercial decision required.**
-3. **Alternate marketing tiers.** The budget document also carries a lower-cost 90-day option (~R174,000) and a higher-growth option (~R455,000). The recommended, lower, and higher options must be reconciled into one agreed figure. **Commercial decision required.**
+1. **Website / landing pages / tracking / CRM overlap.** The R35,000 landing-page set and parts of the R55,000 setup overlap the low-code build's Phase 2 (~R84,000 for site, forms, Meta pages, pixels, CRM integration). Charging both double-charges roughly R35,000–R50,000. **Commercial decision required (B1/B4).**
+2. **Monthly-management start date.** Whether the R32,000 management fee starts at kick-off, during preparation, or at launch. Recommended: at launch (Stage B Day 0), with the setup fee covering preparation. **Commercial decision required (B2).**
+3. **VAT basis mismatch.** Marketing figures are ex VAT; the build estimates were shown incl VAT. A combined client number must use one consistent basis. **Commercial decision required (B6).**
+4. **Alternate marketing tiers.** The budget document also carries a lower-cost 90-day option (~R174,000) and a higher-growth option (~R455,000). The recommended, lower, and higher options must be reconciled into one agreed figure. **Commercial decision required.**
 
 ---
 
@@ -509,7 +541,7 @@ Leading indicators show early activity; business outcome metrics (qualified lead
 
 ## 18. 90-Day Decision Framework
 
-At the end of 90 days, management must be able to decide to **scale, maintain, restructure, pause a channel, change the offer, improve conversion, or expand partner marketing.**
+At the end of the 90-day live campaign (Stage B Day 90, measured from launch — not from kick-off), management must be able to decide to **scale, maintain, restructure, pause a channel, change the offer, improve conversion, or expand partner marketing.** The Day 7/14/30/45/60/75 checkpoints build the evidence base; Day 90 is the formal decision point.
 
 Information required to make that decision:
 
@@ -558,15 +590,15 @@ Decision logic (summary): scale channels with acceptable cost per qualified/fund
 
 **What will happen.** Interon will build and run a controlled customer acquisition system for PropFlo bridging finance: confirm compliance and offer, build seller landing pages and full tracking, prepare and launch controlled Google Search advertising, add retargeting, SEO, and partner channels, and manage lead handling, reporting, and optimisation.
 
-**In what order.** Compliance and strategy first; then landing pages, tracking, and lead handling; then campaign build and testing; then a controlled launch; then weekly optimisation and monthly reporting, with formal reviews at 30, 60, and 90 days.
+**In what order.** Compliance and strategy first; then landing pages, tracking, and lead handling; then campaign build and testing; then a controlled launch (Stage B Day 0); then weekly optimisation and monthly reporting, with live-campaign checkpoints at Day 7, 14, 30, 45, 60, and 75, and a formal scale decision at Day 90 — all measured from launch.
 
-**Over what period.** Approximately 13 weeks for the first controlled launch, starting once PropFlo signs off, pays the deposit, completes the discovery/compliance meeting, and provides access. The platform build, if it delivers the website and tracking, runs 3–5 months in parallel and must be synchronised with the launch.
+**Over what period.** Approximately 19–21 weeks (~4.5–5 months) from kick-off to the Day-90 decision: a preparation stage of ~6–8 weeks (Stage A), then a true 90-day live campaign (Stage B) measured from launch. This starts once PropFlo signs off, pays the deposit, completes the discovery/compliance meeting, and provides access. The platform build, if it delivers the website and tracking, runs 3–5 months in parallel and must be synchronised with the launch.
 
-**At what estimated cost.** Recommended marketing programme ~R281,000 ex VAT over 90 days (R55,000 setup + R35,000 pages + R96,000 management + R95,000 ad spend), with monthly management of R32,000 thereafter. This is subject to unresolved commercial decisions — the website/tracking/CRM overlap with the platform build, the VAT basis, and the choice between the recommended, lower, and higher marketing tiers.
+**At what estimated cost.** Marketing programme ~R231,000–R281,000 ex VAT from kick-off through the Day-90 decision (setup R40,000–R55,000 + landing pages R0–R35,000 + management R96,000 from launch + phased ad spend ~R95,000–R100,000), with R32,000/month management continuing thereafter. This is subject to unresolved commercial decisions — the website/tracking/CRM overlap with the platform build, when management billing starts, the VAT basis, and the choice between marketing tiers (see BUDGET-VALIDATION.md, Decisions B1–B7).
 
 **How success will be measured.** By cost per qualified lead and, where data exists, cost per funded deal — following the full funnel from click to funded deal — not by impressions, clicks, or likes.
 
-**When the scale decision will be made.** At the 90-day review, using cost per qualified lead, cost per funded deal, lead quality, and channel performance to decide whether to scale, maintain, restructure, pause a channel, change the offer, improve conversion, or expand partner marketing.
+**When the scale decision will be made.** At the Day-90 checkpoint (90 days after launch, i.e. the end of Stage B), using cost per qualified lead, cost per funded deal, lead quality, and channel performance to decide whether to scale, maintain, restructure, pause a channel, change the offer, improve conversion, or expand partner marketing.
 
 ---
 
