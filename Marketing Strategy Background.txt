@@ -1,0 +1,373 @@
+Yes, start a **new project specifically for PropFlo**. Do not mix it into Interon’s own marketing system, even if you reuse methods, templates, automations, reporting formats, and production workflows.
+
+Because this is finance-related, I would treat it as a serious, compliance-sensitive client from day one.
+
+## 1. Create a separate PropFlo project
+
+Set it up as a dedicated client workspace with:
+
+A separate strategy document, budget sheet, content calendar, campaign tracker, keyword research file, lead tracker, analytics dashboard, creative folder, compliance notes, and meeting notes.
+
+This matters because you are moving from “doing marketing for ourselves” to “running a client acquisition machine.” Your own Interon model already thinks in funnels, audits, lead capture, education, and conversion paths, which is useful here. Interon’s internal model includes web development, SEO/GEO, AI marketing systems, digital architecture, and retainer-style marketing systems, so this type of client fits the direction well. 
+
+The key difference is that PropFlo is not selling a website or audit. They are selling **speed, relief, and access to funds during a property transfer**.
+
+## 2. Start with positioning, not channels
+
+Do not begin with “Facebook, Google, LinkedIn, TikTok.” Begin with the buyer problem.
+
+The likely customer is a property seller who has sold or is selling a property but cannot wait weeks for transfer money. Bridging finance competitors commonly frame the offer as access to sale proceeds before transfer registration, sometimes within 24 hours, and often up to a percentage of net proceeds. ([Lamna][1])
+
+The plain-language positioning could be:
+
+“Get access to part of your property sale proceeds before transfer is complete.”
+
+Or:
+
+“Property sold, but still waiting for transfer? PropFlo helps bridge the cash-flow gap.”
+
+That is far better than generic finance language.
+
+## 3. Understand the sales journey
+
+For this type of business, the lead journey is not the same as selling shoes or web design. The client may need funds urgently, but trust is everything.
+
+A simple funnel should look like this:
+
+Awareness: “I have sold my property but need money before transfer.”
+
+Education: “What is property bridging finance and how does it work?”
+
+Trust: “Is this legitimate, safe, and linked to the property transfer process?”
+
+Application: “Do I qualify?”
+
+Conversion: “Speak to someone / start application / send documents.”
+
+The site and ads must reduce fear. People will be cautious because finance, property, and personal details are involved.
+
+## 4. Channels I would use
+
+### Google Search Ads
+
+This should probably be the first paid channel because it captures people who already have intent.
+
+Examples of search themes:
+
+“property bridging finance South Africa”
+“bridging finance for property sellers”
+“advance on property sale proceeds”
+“waiting for property transfer money”
+“seller advance finance”
+“bridging loan before property transfer”
+
+But be careful: Google has strict financial products policies. Advertisers promoting financial services must comply with Google’s financial products and services policy, and some locations/categories may require financial services verification. ([Google Help][2])
+
+Also check whether the offer could be classified under Google’s personal loans policy. Google defines personal loans broadly as one-off lending to individuals, and its policy has rules around repayment timing and disclosures. ([Google Help][3])
+
+So before launching: get the client’s compliance wording, licence/registration details, disclosure requirements, repayment explanation, fee structure, and approval process.
+
+### SEO and content
+
+This is important because people research before trusting finance brands.
+
+Create educational pages like:
+
+“What is property bridging finance?”
+“How bridging finance works when selling a property”
+“Can I access money before property transfer?”
+“Seller advance vs bridging finance”
+“What documents are needed for property bridging finance?”
+“How long does property transfer take in South Africa?”
+
+The transfer process starts after an Offer to Purchase has been accepted and presented to the transferring attorney, so content should explain the role of the conveyancer and transfer timeline in simple terms. ([Adams & Adams][4])
+
+This content will also help Google Ads because the landing pages will be more relevant and trustworthy.
+
+### Estate agent and conveyancer referral channel
+
+This may become the most valuable channel.
+
+Property sellers often do not know bridging finance exists until an estate agent, bond originator, or conveyancing attorney mentions it. Build a B2B referral strategy aimed at:
+
+Estate agents
+Estate agencies
+Conveyancing attorneys
+Bond originators
+Property consultants
+Developers
+Relocation companies
+
+This could include referral landing pages, partner brochures, agent WhatsApp packs, email templates, co-branded explainer PDFs, and LinkedIn outreach.
+
+You may find that one good agency relationship is worth more than a month of social media posting.
+
+### Meta Ads: Facebook and Instagram
+
+Use these carefully. Finance ads on Meta are restricted. Meta states that ads promoting credit cards, loans, or insurance must target people 18 or older, and Meta has specific rules for financial products and services. ([Transparency Center][5])
+
+Meta can work well for awareness and retargeting, but I would not rely on it as the main lead source at the start.
+
+Use Meta for:
+
+Educational videos
+Retargeting website visitors
+Explaining the process
+Trust-building testimonials, if allowed
+Estate agent awareness
+Lead magnets such as “Property Seller Cash-Flow Guide”
+
+Avoid aggressive copy like “desperate for cash?” or anything that could feel exploitative.
+
+### LinkedIn
+
+LinkedIn is probably better for partners than direct sellers.
+
+Use it for:
+
+Estate agency relationships
+Attorney relationships
+Property industry credibility
+Founder or company thought leadership
+Explaining case scenarios
+Partner recruitment
+
+This should not be fluffy brand posting. It should be direct and educational.
+
+Example topics:
+
+“Why property sellers experience cash-flow pressure during transfer”
+“What estate agents should know about seller bridging finance”
+“How bridging finance can reduce seller stress after OTP acceptance”
+“What documents usually slow down a seller advance application”
+
+### Email and WhatsApp nurturing
+
+For this market, WhatsApp will probably matter.
+
+Build two follow-up paths:
+
+For sellers: simple explanation, next steps, document checklist, contact link.
+
+For partners: referral process, commission/referral arrangement if applicable, client handover script, compliance-approved messaging.
+
+Do not rely only on forms. Many people will want to speak to a human.
+
+## 5. Website and landing pages
+
+Do not send all traffic to a generic homepage.
+
+Build separate landing pages for:
+
+Property sellers
+Estate agents
+Conveyancers
+Developers / bulk property sellers
+FAQs
+Application checklist
+Contact / apply now
+
+Each landing page should answer:
+
+Who is this for?
+When do you use it?
+How does it work?
+What documents are needed?
+How fast can it happen?
+What does it cost?
+Who handles repayment?
+Is there an obligation to apply?
+What happens after I submit the form?
+
+The main CTA should probably not be “Apply Now” only. Use a softer secondary CTA:
+
+“Check if you qualify”
+“Speak to a consultant”
+“Send us your property sale details”
+“Request a callback”
+
+## 6. Tracking and reporting setup
+
+Before ads go live, set up the measurement properly.
+
+Minimum setup:
+
+Google Analytics 4
+Google Tag Manager
+Google Search Console
+Google Ads conversion tracking
+Meta Pixel, only if compliant with consent/privacy setup
+Call tracking if possible
+Form submission tracking
+WhatsApp click tracking
+CRM or lead sheet
+UTM naming system
+Monthly reporting dashboard
+
+Track leads by source:
+
+Google Search
+Organic search
+Meta
+LinkedIn
+Referral partner
+Direct
+WhatsApp
+Email
+Offline referral
+
+Do not judge campaigns only by clicks. Track lead quality, application rate, approval rate, funded deals, and cost per funded deal.
+
+## 7. Budget proposal structure
+
+I would split the proposal into three parts:
+
+### Once-off setup
+
+This is the foundation work.
+
+Recommended once-off range: **R35,000 to R85,000 ex VAT**, depending on scope.
+
+Includes:
+
+Strategy and discovery
+Competitor and keyword research
+Website/landing page planning
+Tracking setup
+Campaign structure
+Initial ad copy
+Initial creative direction
+Compliance review support
+Reporting dashboard
+Content plan
+Partner outreach framework
+
+If they need you to build or rebuild the website, quote that separately.
+
+### Monthly management retainer
+
+Recommended starting range: **R18,000 to R45,000 ex VAT per month**.
+
+For a full marketing spectrum client, I would not go below R18,000 unless the scope is very limited. Finance clients require more thinking, compliance checking, reporting, and optimisation.
+
+A practical starting retainer could be:
+
+**Starter: R18,000 pm**
+Google Ads management, basic SEO, monthly reporting, small content support.
+
+**Growth: R28,000 to R35,000 pm**
+Google Ads, Meta retargeting, SEO content, landing page optimisation, monthly reporting, partner campaign support.
+
+**Full Spectrum: R45,000+ pm**
+Paid ads, SEO, content, email/WhatsApp nurture, LinkedIn, partner marketing, conversion optimisation, dashboards, monthly strategy session.
+
+### Ad spend
+
+Ad spend must be separate from your fee.
+
+Suggested starting ad budget:
+
+Month 1: **R15,000 to R25,000** test budget
+Month 2 to 3: **R25,000 to R50,000** if leads are converting
+Month 4 onward: scale based on cost per qualified lead and funded deal value
+
+I would not start with a huge budget until the landing pages, tracking, and lead handling are proven.
+
+## 8. First 90-day plan
+
+### First 30 days: Foundation
+
+Get the client’s compliance information. Understand the product, fees, qualification criteria, risk limits, target areas, sales process, and average deal value.
+
+Build the campaign architecture, landing pages, tracking, lead process, reporting sheet, and content map.
+
+Do not rush ads before the lead handling process is clear.
+
+### Days 31 to 60: Launch and test
+
+Launch Google Search first.
+
+Run a small Meta retargeting campaign.
+
+Start SEO content.
+
+Start LinkedIn partner positioning.
+
+Create a referral partner pack for estate agents and conveyancers.
+
+Review search terms, lead quality, call quality, form completions, and drop-off points weekly.
+
+### Days 61 to 90: Optimise and scale
+
+Cut poor keywords.
+
+Improve landing pages.
+
+Add FAQs based on real enquiries.
+
+Increase ad spend only on campaigns producing qualified leads.
+
+Build a partner database.
+
+Start email/WhatsApp nurture.
+
+Prepare monthly board-level reporting: spend, leads, qualified leads, applications, approvals, funded deals, cost per funded deal.
+
+## 9. What I would avoid
+
+Do not sell “cheap leads.” Sell a controlled acquisition system.
+
+Do not start with TikTok unless they specifically want awareness and have budget to experiment.
+
+Do not use fear-based finance copy.
+
+Do not make promises like “guaranteed approval” or “instant cash” unless legally and operationally true.
+
+Do not run ads before checking platform finance rules.
+
+Do not accept responsibility for compliance wording unless the client signs off.
+
+Do not quote too low. This is not a simple social media management job.
+
+## 10. The key questions you need answered internally
+
+Before you propose the budget, get clarity on:
+
+Are they a registered credit provider or exempt from registration?
+Who legally provides the finance?
+What exact fees and repayment terms apply?
+What documents are required?
+What makes a seller qualify or fail?
+What is the average funded amount?
+What is the gross profit per funded deal?
+What regions do they serve?
+Do they work directly with conveyancers?
+Do they pay referral partners?
+Who handles incoming leads?
+How fast can they respond?
+What claims are approved for advertising?
+
+The marketing strategy depends heavily on those answers.
+
+## My honest recommendation
+
+Treat this as a **performance marketing and trust-building project**, not a social media project.
+
+Start with:
+
+1. Google Search Ads
+2. Dedicated landing pages
+3. SEO content
+4. Estate agent/conveyancer referral system
+5. Retargeting on Meta
+6. LinkedIn for partners
+7. Email/WhatsApp follow-up
+8. Clear reporting from click to funded deal
+
+And yes, create a separate project for PropFlo. Structure it properly from day one. This could become a serious case study for Interon if handled carefully.
+
+[1]: https://www.lamna.co.za/products/property-transfer-finance/?utm_source=chatgpt.com "Property Bridging Finance in South Africa - Quick & Easy"
+[2]: https://support.google.com/adspolicy/answer/2464998?hl=en&utm_source=chatgpt.com "Financial products and services - Advertising Policies Help"
+[3]: https://support.google.com/adspolicy/answer/15188216?hl=en&utm_source=chatgpt.com "Personal loans - Advertising Policies Help"
+[4]: https://www.adams.africa/south-africa/how-does-property-transfer-process-work-sa/?utm_source=chatgpt.com "How Does the Property Transfer Process Work in South ..."
+[5]: https://transparency.meta.com/policies/ad-standards/?utm_source=chatgpt.com "Introduction to the Advertising Standards"
