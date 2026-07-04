@@ -1,0 +1,165 @@
+%% Full programme = Stage A then Stage B. See PERT-STAGE-A.mmd and PERT-STAGE-B.mmd.
+flowchart LR
+  classDef crit fill:#fff,stroke:#b5322f,stroke-width:3px;
+  classDef norm fill:#fff,stroke:#3f6690,stroke-width:1px;
+  classDef mile fill:#1f2d3d,color:#fff,stroke:#1f2d3d;
+  A0["A0: Project authorisation (0d)"]
+  A1["A1: Kick-off & roles confirmation (2d)"]
+  A2["A2: Stakeholder & sponsor confirmation (1d)"]
+  A3["A3: Commercial scope decision (marketing vs build) (3d)"]
+  A4["A4: Access & assets collection (10d)"]
+  A13["A13: Competitor research (3d)"]
+  A5["A5: Discovery & compliance information collection (6d)"]
+  A34["A34: Google financial-services verification (10d)"]
+  A6["A6: Compliance questions completed (3d)"]
+  A11["A11: Audience confirmation (2d)"]
+  A27["A27: CRM & lead-process preparation (6d)"]
+  A7["A7: Approved claims list (6d)"]
+  A8["A8: Restricted claims list (2d)"]
+  A10["A10: Privacy & consent wording confirmed (3d)"]
+  A12["A12: Offer confirmation (2d)"]
+  A16["A16: Measurement baseline (2d)"]
+  A9["A9: Required disclaimers (3d)"]
+  A14["A14: Keyword research (3d)"]
+  M1{{"M1: Compliance & claims approved"}}
+  A15["A15: Negative keyword research (2d)"]
+  A28["A28: Email & WhatsApp workflow preparation (3d)"]
+  A35["A35: SEO foundation content (8d)"]
+  A36["A36: Partner marketing materials & LinkedIn setup (6d)"]
+  M2{{"M2: Strategy approved"}}
+  A29["A29: Lead-handling readiness sign-off (2d)"]
+  A17["A17: Landing page planning & sitemap sign-off (3d)"]
+  A22["A22: Tracking architecture & plan (2d)"]
+  A30["A30: Campaign structure (Google + Meta setup) (2d)"]
+  M5{{"M5: Lead handling ready"}}
+  A18["A18: Landing page copy & creative (6d)"]
+  A23["A23: GA4 & GTM setup (3d)"]
+  A31["A31: Ad copy draft (3d)"]
+  A19["A19: Landing page build (interim/platform) (11d)"]
+  A20["A20: Form preparation (3d)"]
+  A24["A24: Conversion configuration (2d)"]
+  A32["A32: Ad copy approval (4d)"]
+  A21["A21: Landing page QA & approval (2d)"]
+  A25["A25: Lead-source capture & UTM (2d)"]
+  M3{{"M3: Landing pages approved"}}
+  A26["A26: Tracking end-to-end test (2d)"]
+  M4{{"M4: Tracking approved"}}
+  A33["A33: Campaign build (3d)"]
+  M6{{"M6: Campaigns approved"}}
+  A37["A37: Pre-launch testing (form/tracking/technical) (3d)"]
+  A38["A38: Launch checklist sign-off (1d)"]
+  M7{{"M7: Controlled Launch"}}
+  A0 --> A1
+  A1 --> A2
+  A1 --> A3
+  A1 --> A4
+  A1 --> A13
+  A1 --> A5
+  A2 --> A5
+  A4 --> A34
+  A5 --> A6
+  A5 --> A11
+  A5 --> A27
+  A6 --> A7
+  A6 --> A8
+  A6 --> A10
+  A11 --> A12
+  A11 --> A16
+  A7 --> A9
+  A12 --> A14
+  A7 --> M1
+  A8 --> M1
+  A9 --> M1
+  A10 --> M1
+  A14 --> A15
+  M1 --> A28
+  A27 --> A28
+  M1 --> A35
+  M1 --> A36
+  A12 --> M2
+  A13 --> M2
+  A15 --> M2
+  A16 --> M2
+  A27 --> A29
+  A28 --> A29
+  M2 --> A17
+  M2 --> A22
+  A15 --> A30
+  M2 --> A30
+  A29 --> M5
+  A17 --> A18
+  M1 --> A18
+  A3 --> A18
+  A22 --> A23
+  A4 --> A23
+  A30 --> A31
+  M1 --> A31
+  A18 --> A19
+  A18 --> A20
+  A23 --> A24
+  A31 --> A32
+  A19 --> A21
+  A20 --> A21
+  A24 --> A25
+  A21 --> M3
+  A25 --> A26
+  M3 --> A26
+  A26 --> M4
+  A32 --> A33
+  M4 --> A33
+  A33 --> M6
+  A34 --> M6
+  M3 --> A37
+  M4 --> A37
+  M5 --> A37
+  M6 --> A37
+  A37 --> A38
+  A38 --> M7
+  A35 --> M7
+  A36 --> M7
+  class A0 crit;
+  class A1 crit;
+  class A2 crit;
+  class A3 norm;
+  class A4 norm;
+  class A13 norm;
+  class A5 crit;
+  class A34 norm;
+  class A6 crit;
+  class A11 crit;
+  class A27 norm;
+  class A7 crit;
+  class A8 norm;
+  class A10 norm;
+  class A12 crit;
+  class A16 norm;
+  class A9 crit;
+  class A14 crit;
+  class M1 mile;
+  class A15 crit;
+  class A28 norm;
+  class A35 norm;
+  class A36 norm;
+  class M2 mile;
+  class A29 norm;
+  class A17 crit;
+  class A22 norm;
+  class A30 norm;
+  class M5 mile;
+  class A18 crit;
+  class A23 norm;
+  class A31 norm;
+  class A19 crit;
+  class A20 norm;
+  class A24 norm;
+  class A32 norm;
+  class A21 crit;
+  class A25 norm;
+  class M3 mile;
+  class A26 crit;
+  class M4 mile;
+  class A33 crit;
+  class M6 mile;
+  class A37 crit;
+  class A38 crit;
+  class M7 mile;

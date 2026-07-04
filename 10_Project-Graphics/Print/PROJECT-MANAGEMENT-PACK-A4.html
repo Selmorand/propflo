@@ -1,0 +1,107 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>PropFlo Project Management Pack (A4)</title><style>
+:root{--ink:#1a1a1a;--sub:#5a6672;--crit:#b5322f;--r:#2f4a63;--a:#b5322f;--c:#d7dde3;--i:#eef1f4;--line:#c9d1d9;}
+*{box-sizing:border-box;}
+html,body{margin:0;padding:0;background:#fff;color:var(--ink);font-family:Arial,Helvetica,'Segoe UI',sans-serif;font-size:11pt;line-height:1.4;}
+h1{font-size:24pt;margin:0 0 4pt;} h2{font-size:16pt;margin:0 0 6pt;border-bottom:2px solid var(--ink);padding-bottom:3pt;}
+h3{font-size:12.5pt;margin:10pt 0 4pt;} p{margin:4pt 0;} .sub{color:var(--sub);}
+.wrap{padding:14mm 12mm;}
+table{border-collapse:collapse;width:100%;margin:6pt 0;font-size:9.5pt;}
+th,td{border:1px solid var(--line);padding:4pt 5pt;text-align:left;vertical-align:top;}
+thead{display:table-header-group;} th{background:#f0f3f6;font-weight:bold;}
+img.diagram{max-width:100%;height:auto;display:block;margin:6pt 0;border:1px solid #e3e7eb;}
+.legend span{display:inline-block;margin-right:14pt;font-size:9.5pt;}
+.chip{display:inline-block;width:12px;height:12px;vertical-align:middle;margin-right:4px;}
+.R{background:var(--r);color:#fff;text-align:center;font-weight:bold;}
+.A{background:var(--a);color:#fff;text-align:center;font-weight:bold;}
+.C{background:var(--c);text-align:center;}
+.I{background:var(--i);text-align:center;color:var(--sub);}
+.raci td:first-child{text-align:left;font-weight:normal;}
+.raci th{writing-mode:horizontal-tb;font-size:8.5pt;}
+.sev-High{color:var(--crit);font-weight:bold;} .sev-Medium{color:#c07a1e;font-weight:bold;} .sev-Low{color:#3f6690;}
+.cover{page-break-after:always;padding-top:40mm;text-align:left;}
+.cover .rule{height:4px;background:var(--crit);width:120mm;margin:8pt 0 16pt;}
+.kpi{border:1px solid var(--line);padding:8pt;margin:4pt 0;}
+.decision{border-left:4px solid var(--crit);padding:2pt 8pt;margin:5pt 0;}
+section{page-break-before:always;}
+section.first{page-break-before:avoid;}
+ul{margin:4pt 0 4pt 16pt;padding:0;}
+@page{size:A4 landscape;margin:12mm;}
+@media print{.wrap{padding:0;} a{color:var(--ink);text-decoration:none;}}
+</style></head><body><div class="wrap">
+<div class="cover">
+ <h1>PropFlo Marketing Launch Programme</h1>
+ <div class="rule"></div>
+ <p style="font-size:13pt;"><b>Project Management Pack</b> — CPM/PERT Schedule, Gantt, Milestones, Budget, RACI, Risk</p>
+ <p class="sub">Prepared by Interon &middot; Commercial in confidence &middot; Working draft (not yet approved)</p>
+ <p class="sub">All schedule figures are calculated by Critical Path Method from the project activity network. All costs ex VAT.</p>
+</div>
+
+<section class="first"><h2>1. Project Summary</h2>
+ <div class="kpi"><b>Structure:</b> Two stages. Stage A (preparation) then Stage B (true 90-day live campaign). The 90-day clock starts at launch, not kick-off.</div>
+ <div class="kpi"><b>Calculated Stage A:</b> 49 working days (~10 weeks; ~15 weeks pessimistic). <b>Overall programme:</b> ~159 calendar days (~5.2 months) to the Day-90 scale decision.</div>
+ <div class="kpi"><b>Critical path:</b> compliance &rarr; landing-page copy &amp; build &rarr; pages approval &rarr; tracking test &rarr; campaign build &rarr; pre-launch testing &rarr; launch.</div>
+ <div class="kpi"><b>Budget (ex VAT):</b> R233,500–R283,500 across the overlap scenarios; R32,000/month management continuing after Day 90. Platform build separate.</div>
+ <p class="sub">Source of truth: CPM-PERT-MASTER-SCHEDULE.md, PROJECT-ACTIVITY-DATA.csv, PROJECT-GANTT-DATA.csv, PROJECT-COST-BASELINE.md.</p></section>
+
+<section><h2>2. Stage A — Preparation Overview</h2><table><thead><tr><th>Milestone</th><th>Working day</th><th>~ Week</th><th>Gate</th></tr></thead><tbody>
+<tr><td>Strategy approved (M2)</td><td>18</td><td>~4</td><td>—</td></tr>
+<tr><td>Compliance &amp; claims approved (M1)</td><td>21</td><td>~5</td><td>Hard gate</td></tr>
+<tr><td>Lead handling ready (M5)</td><td>26</td><td>~6</td><td>Hard gate</td></tr>
+<tr><td>Landing pages approved (M3)</td><td>40</td><td>~8</td><td>Hard gate</td></tr>
+<tr><td>Tracking approved (M4)</td><td>42</td><td>~9</td><td>Hard gate</td></tr>
+<tr><td>Campaigns approved (M6)</td><td>45</td><td>~9</td><td>Gate</td></tr>
+<tr><td>Controlled launch (M7 = Stage B Day 0)</td><td>49</td><td>~10</td><td>Launch</td></tr></tbody></table>
+ <p class="sub">Calculated milestone timings (working day from authorisation). Hard gates must be true before launch.</p></section>
+
+<section><h2>3. Stage B — 90-Day Live Campaign Overview</h2><table><thead><tr><th>Checkpoint</th><th>Live day</th><th>~ Calendar day</th></tr></thead><tbody>
+<tr><td>Launch</td><td>0</td><td>69</td></tr><tr><td>Day 7 technical &amp; search-term review</td><td>7</td><td>76</td></tr>
+<tr><td>Day 14 lead-quality review</td><td>14</td><td>83</td></tr><tr><td>Day 30 performance review</td><td>30</td><td>99</td></tr>
+<tr><td>Day 45 optimisation checkpoint</td><td>45</td><td>114</td></tr><tr><td>Day 60 performance &amp; channel review</td><td>60</td><td>129</td></tr>
+<tr><td>Day 75 scale-readiness checkpoint</td><td>75</td><td>144</td></tr><tr><td>Day 90 scale decision</td><td>90</td><td>159</td></tr></tbody></table>
+ <p class="sub">Live days from launch; calendar day = 69 + live day. Reviews occur after true elapsed live days.</p></section>
+
+<section><h2>4. PERT Network — Overview</h2><img class="diagram" src="../SVG/PERT-NETWORK-OVERVIEW.svg" alt="PERT overview"/>
+ <p class="sub">Milestone-level critical spine. Full detail in Stage A and Stage B PERT diagrams (SVG folder).</p></section>
+
+<section><h2>5. Critical Path</h2><img class="diagram" src="../SVG/CRITICAL-PATH.svg" alt="Critical path"/></section>
+
+<section><h2>6. Gantt — Overview</h2><img class="diagram" src="../SVG/GANTT-OVERVIEW.svg" alt="Gantt overview"/></section>
+
+<section><h2>7. Gantt — Stage A (detailed)</h2><img class="diagram" src="../SVG/GANTT-STAGE-A.svg" alt="Gantt Stage A"/></section>
+
+<section><h2>8. Gantt — Stage B (detailed)</h2><img class="diagram" src="../SVG/GANTT-STAGE-B.svg" alt="Gantt Stage B"/></section>
+
+<section><h2>9. Milestone Timeline</h2><img class="diagram" src="../SVG/MILESTONE-TIMELINE.svg" alt="Milestone timeline"/></section>
+
+<section><h2>10. Budget Timeline</h2><img class="diagram" src="../SVG/BUDGET-TIMELINE.svg" alt="Budget timeline"/><table><thead><tr><th>Period</th><th>Setup</th><th>Landing pages</th><th>Management</th><th>Media</th><th>Total (ex VAT)</th></tr></thead><tbody>
+<tr><td>Stage A (prep)</td><td>R40,000–R55,000</td><td>R0–R35,000 (unresolved)</td><td>R0</td><td>R0</td><td>R40,000–R90,000</td></tr>
+<tr><td>Stage B Month 1</td><td>—</td><td>—</td><td>R32,000</td><td>R25,000</td><td>R57,000</td></tr>
+<tr><td>Stage B Month 2</td><td>—</td><td>—</td><td>R32,000</td><td>R32,500</td><td>R64,500</td></tr>
+<tr><td>Stage B Month 3</td><td>—</td><td>—</td><td>R32,000</td><td>R40,000</td><td>R72,000</td></tr>
+<tr><td><b>Programme total</b></td><td colspan="4"></td><td><b>R233,500–R283,500</b></td></tr></tbody></table>
+<p class="sub">All ex VAT. Media paid by PropFlo to platforms. Platform build (R436,000 ex VAT) and subscriptions are separate. Landing-page/overlap ~R35,000–R50,000 is an unresolved commercial item.</p></section>
+
+<section><h2>11. RACI Matrix</h2><p class="legend"><span><span class="chip R"></span>R = Responsible</span><span><span class="chip A"></span>A = Accountable</span><span><span class="chip C"></span>C = Consulted</span><span><span class="chip I"></span>I = Informed</span></p><table class="raci"><thead><tr><th>Activity</th><th>PropFlo Sponsor</th><th>PropFlo Compliance/Legal</th><th>PropFlo Sales</th><th>Interon Project Lead</th><th>Interon Strategy</th><th>Interon Paid Media</th><th>Interon Content/SEO</th><th>Interon Design</th><th>Interon Dev/Tech</th></tr></thead><tbody><tr><td>Proposal and budget approval</td><td class="A">A</td><td class="C">C</td><td class="I">I</td><td class="R">R</td><td class="C">C</td><td class="I">I</td><td class="I">I</td><td class="I">I</td><td class="I">I</td></tr><tr><td>Compliance and claims</td><td class="A">A</td><td class="R">R</td><td class="C">C</td><td class="C">C</td><td class="C">C</td><td class="I">I</td><td class="C">C</td><td class="I">I</td><td class="I">I</td></tr><tr><td>Strategy and research</td><td class="C">C</td><td class="C">C</td><td class="C">C</td><td class="A">A</td><td class="R">R</td><td class="C">C</td><td class="C">C</td><td class="I">I</td><td class="I">I</td></tr><tr><td>Website and landing pages</td><td class="A">A</td><td class="C">C</td><td class="C">C</td><td class="R">R</td><td class="C">C</td><td class="C">C</td><td class="C">C</td><td class="R">R</td><td class="R">R</td></tr><tr><td>Tracking and measurement</td><td class="I">I</td><td class="I">I</td><td class="C">C</td><td class="A">A</td><td class="C">C</td><td class="R">R</td><td class="I">I</td><td class="I">I</td><td class="R">R</td></tr><tr><td>Paid search</td><td class="I">I</td><td class="C">C</td><td class="I">I</td><td class="A">A</td><td class="C">C</td><td class="R">R</td><td class="I">I</td><td class="I">I</td><td class="I">I</td></tr><tr><td>Meta retargeting</td><td class="I">I</td><td class="C">C</td><td class="I">I</td><td class="A">A</td><td class="C">C</td><td class="R">R</td><td class="C">C</td><td class="C">C</td><td class="I">I</td></tr><tr><td>SEO and content</td><td class="I">I</td><td class="C">C</td><td class="I">I</td><td class="A">A</td><td class="C">C</td><td class="I">I</td><td class="R">R</td><td class="I">I</td><td class="I">I</td></tr><tr><td>Partner and LinkedIn</td><td class="C">C</td><td class="C">C</td><td class="C">C</td><td class="A">A</td><td class="R">R</td><td class="I">I</td><td class="C">C</td><td class="C">C</td><td class="I">I</td></tr><tr><td>Email and WhatsApp follow-up</td><td class="I">I</td><td class="C">C</td><td class="R">R</td><td class="A">A</td><td class="C">C</td><td class="I">I</td><td class="C">C</td><td class="I">I</td><td class="I">I</td></tr><tr><td>CRM and lead management</td><td class="C">C</td><td class="I">I</td><td class="R">R</td><td class="A">A</td><td class="C">C</td><td class="I">I</td><td class="I">I</td><td class="I">I</td><td class="C">C</td></tr><tr><td>Reporting and optimisation</td><td class="C">C</td><td class="I">I</td><td class="C">C</td><td class="A">A</td><td class="C">C</td><td class="R">R</td><td class="C">C</td><td class="I">I</td><td class="I">I</td></tr><tr><td>Project management</td><td class="A">A</td><td class="I">I</td><td class="I">I</td><td class="R">R</td><td class="C">C</td><td class="C">C</td><td class="C">C</td><td class="I">I</td><td class="I">I</td></tr></tbody></table></section>
+
+<section><h2>12. Risk Matrix</h2><img class="diagram" src="../SVG/RISK-MATRIX.svg" alt="Risk matrix"/></section>
+
+<section><h2>13. Risk Register</h2><table><thead><tr><th>ID</th><th>Risk</th><th>Prob</th><th>Impact</th><th>Severity</th><th>Mitigation</th><th>Owner</th><th>Trigger / warning sign</th></tr></thead><tbody><tr><td><b>R1</b></td><td>Compliance approval delay</td><td>High</td><td>High</td><td class="sev-High">High</td><td>Front-load discovery; treat as gating milestone</td><td>PropFlo Compliance</td><td>Claims not returned by ~Day 21</td></tr><tr><td><b>R2</b></td><td>Claims/ads rejected by platform</td><td>Med</td><td>High</td><td class="sev-High">High</td><td>Conservative wording; platform verification early</td><td>Interon Paid Media</td><td>Ad disapprovals; verification requests</td></tr><tr><td><b>R3</b></td><td>Poor landing page conversion</td><td>Med</td><td>High</td><td class="sev-High">High</td><td>Clear offer, trust signals, weekly form review</td><td>Interon Strategy</td><td>High traffic, low form completion</td></tr><tr><td><b>R4</b></td><td>Slow lead response</td><td>Med</td><td>High</td><td class="sev-High">High</td><td>Confirm owner and 15-min/1-hr targets before launch</td><td>PropFlo Sales</td><td>Leads uncontacted same day</td></tr><tr><td><b>R5</b></td><td>Poor lead quality</td><td>Med</td><td>High</td><td class="sev-High">High</td><td>Tight keywords, negatives, qualification form</td><td>Interon Paid Media</td><td>Many personal-loan/non-seller enquiries</td></tr><tr><td><b>R6</b></td><td>Insufficient sales feedback</td><td>Med</td><td>High</td><td class="sev-High">High</td><td>Weekly feedback loop; status discipline</td><td>PropFlo Sales</td><td>Missing outcome updates</td></tr><tr><td><b>R7</b></td><td>Tracking gaps</td><td>Med</td><td>High</td><td class="sev-High">High</td><td>Pre-launch end-to-end test; no launch until passed</td><td>Interon Dev/Tech</td><td>Events not firing in test</td></tr><tr><td><b>R8</b></td><td>Budget pressure</td><td>Med</td><td>Med</td><td class="sev-Medium">Medium</td><td>Controlled daily budgets; monthly review</td><td>Interon Project Lead</td><td>Spend up, qualified leads flat</td></tr><tr><td><b>R9</b></td><td>Advertising platform restrictions</td><td>Med</td><td>Med</td><td class="sev-Medium">Medium</td><td>Prepare documentation; expect verification</td><td>Interon Paid Media</td><td>Account/category checks</td></tr><tr><td><b>R10</b></td><td>Scope overlap / double charge</td><td>High</td><td>Med</td><td class="sev-High">High</td><td>Resolve build-vs-marketing scope before sign-off</td><td>PropFlo Sponsor</td><td>Two quotes for the same site work</td></tr><tr><td><b>R11</b></td><td>Delayed client approvals</td><td>Med</td><td>High</td><td class="sev-High">High</td><td>Approvals log; clear owners and dates</td><td>Interon Project Lead</td><td>Approvals overdue</td></tr><tr><td><b>R12</b></td><td>CRM / lead process failure</td><td>Med</td><td>High</td><td class="sev-High">High</td><td>Confirm lead stages and owner before launch</td><td>PropFlo Sales</td><td>Leads lost or unstaged</td></tr><tr><td><b>R13</b></td><td>Build/marketing timeline mismatch</td><td>High</td><td>Med</td><td class="sev-High">High</td><td>Synchronise build Phase 2 with launch, or interim pages</td><td>PropFlo Sponsor</td><td>Build not live when launch due</td></tr><tr><td><b>R14</b></td><td>Weak or unclear offer</td><td>Med</td><td>High</td><td class="sev-High">High</td><td>Confirm offer structure before spend</td><td>PropFlo Sponsor</td><td>Low conversion despite good traffic</td></tr></tbody></table></section>
+
+<section><h2>14. Key Assumptions</h2><ul>
+<li>Stage A is scheduled in working days from authorisation; Stage B in live days from launch. Calendar view uses 5 working days = 7 calendar days.</li>
+<li>Durations use planning/PERT most-likely values and require PropFlo review; they are not confirmed facts.</li>
+<li>No calendar dates are set; Day 0 = authorisation.</li>
+<li>One Interon delivery team; no resource-levelling constraint applied.</li>
+<li>Compliance answers, access, and approvals are provided promptly; delays move the launch date.</li>
+<li>Marketing figures are ex VAT; platform-build figures are indicative and separate.</li>
+<li>Brand name confirmed as PropFlo. Numeric lead/application/funded-deal targets to be agreed.</li></ul></section>
+
+<section><h2>15. Management Decisions Required</h2><p class="sub">Unresolved commercial items — not silently resolved. See BUDGET-VALIDATION.md and PROJECT-SCHEDULE-VALIDATION.md.</p>
+<div class="decision"><b>S1 / B1 — Website ownership.</b> Assign site, landing pages, tracking, CRM to the platform build or to marketing (recommended: hybrid interim page to protect launch). ~R35,000–R50,000 double-charge at stake.</div>
+<div class="decision"><b>B2 — Management start date.</b> Kick-off / preparation / launch. Recommended: at launch (Stage B Day 0).</div>
+<div class="decision"><b>B4 — Setup re-scope.</b> Trim ~R12,000–R15,000 overlapping setup lines to ~R40,000, or keep R55,000.</div>
+<div class="decision"><b>B3 — Prep vs live management pricing.</b> Setup covers prep, or a separate prep-coordination fee.</div>
+<div class="decision"><b>B5 — Ad-spend phasing.</b> Confirm R25k → R32.5k → R40k ramp and monthly ceiling.</div>
+<div class="decision"><b>B6 — VAT basis.</b> Present the combined client number ex VAT (recommended), VAT as a separate line.</div>
+<div class="decision"><b>B7 / S2 — Platform build.</b> Whether it proceeds, how it is presented with marketing, and Google financial-services verification timing.</div></section>
+</div></body></html>

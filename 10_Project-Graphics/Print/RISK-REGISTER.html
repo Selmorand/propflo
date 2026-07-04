@@ -1,0 +1,30 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>PropFlo Risk Register</title><style>
+:root{--ink:#1a1a1a;--sub:#5a6672;--crit:#b5322f;--r:#2f4a63;--a:#b5322f;--c:#d7dde3;--i:#eef1f4;--line:#c9d1d9;}
+*{box-sizing:border-box;}
+html,body{margin:0;padding:0;background:#fff;color:var(--ink);font-family:Arial,Helvetica,'Segoe UI',sans-serif;font-size:11pt;line-height:1.4;}
+h1{font-size:24pt;margin:0 0 4pt;} h2{font-size:16pt;margin:0 0 6pt;border-bottom:2px solid var(--ink);padding-bottom:3pt;}
+h3{font-size:12.5pt;margin:10pt 0 4pt;} p{margin:4pt 0;} .sub{color:var(--sub);}
+.wrap{padding:14mm 12mm;}
+table{border-collapse:collapse;width:100%;margin:6pt 0;font-size:9.5pt;}
+th,td{border:1px solid var(--line);padding:4pt 5pt;text-align:left;vertical-align:top;}
+thead{display:table-header-group;} th{background:#f0f3f6;font-weight:bold;}
+img.diagram{max-width:100%;height:auto;display:block;margin:6pt 0;border:1px solid #e3e7eb;}
+.legend span{display:inline-block;margin-right:14pt;font-size:9.5pt;}
+.chip{display:inline-block;width:12px;height:12px;vertical-align:middle;margin-right:4px;}
+.R{background:var(--r);color:#fff;text-align:center;font-weight:bold;}
+.A{background:var(--a);color:#fff;text-align:center;font-weight:bold;}
+.C{background:var(--c);text-align:center;}
+.I{background:var(--i);text-align:center;color:var(--sub);}
+.raci td:first-child{text-align:left;font-weight:normal;}
+.raci th{writing-mode:horizontal-tb;font-size:8.5pt;}
+.sev-High{color:var(--crit);font-weight:bold;} .sev-Medium{color:#c07a1e;font-weight:bold;} .sev-Low{color:#3f6690;}
+.cover{page-break-after:always;padding-top:40mm;text-align:left;}
+.cover .rule{height:4px;background:var(--crit);width:120mm;margin:8pt 0 16pt;}
+.kpi{border:1px solid var(--line);padding:8pt;margin:4pt 0;}
+.decision{border-left:4px solid var(--crit);padding:2pt 8pt;margin:5pt 0;}
+section{page-break-before:always;}
+section.first{page-break-before:avoid;}
+ul{margin:4pt 0 4pt 16pt;padding:0;}
+@page{size:A3 landscape;margin:12mm;}
+@media print{.wrap{padding:0;} a{color:var(--ink);text-decoration:none;}}
+</style></head><body><div class="wrap"><h1>PropFlo Risk Register</h1><p class="sub">Source: MASTER-PROJECT-PLAN.md Section 13. Severity: <span class="sev-High">High</span>, <span class="sev-Medium">Medium</span>, <span class="sev-Low">Low</span>.</p><table><thead><tr><th>ID</th><th>Risk</th><th>Prob</th><th>Impact</th><th>Severity</th><th>Mitigation</th><th>Owner</th><th>Trigger / warning sign</th></tr></thead><tbody><tr><td><b>R1</b></td><td>Compliance approval delay</td><td>High</td><td>High</td><td class="sev-High">High</td><td>Front-load discovery; treat as gating milestone</td><td>PropFlo Compliance</td><td>Claims not returned by ~Day 21</td></tr><tr><td><b>R2</b></td><td>Claims/ads rejected by platform</td><td>Med</td><td>High</td><td class="sev-High">High</td><td>Conservative wording; platform verification early</td><td>Interon Paid Media</td><td>Ad disapprovals; verification requests</td></tr><tr><td><b>R3</b></td><td>Poor landing page conversion</td><td>Med</td><td>High</td><td class="sev-High">High</td><td>Clear offer, trust signals, weekly form review</td><td>Interon Strategy</td><td>High traffic, low form completion</td></tr><tr><td><b>R4</b></td><td>Slow lead response</td><td>Med</td><td>High</td><td class="sev-High">High</td><td>Confirm owner and 15-min/1-hr targets before launch</td><td>PropFlo Sales</td><td>Leads uncontacted same day</td></tr><tr><td><b>R5</b></td><td>Poor lead quality</td><td>Med</td><td>High</td><td class="sev-High">High</td><td>Tight keywords, negatives, qualification form</td><td>Interon Paid Media</td><td>Many personal-loan/non-seller enquiries</td></tr><tr><td><b>R6</b></td><td>Insufficient sales feedback</td><td>Med</td><td>High</td><td class="sev-High">High</td><td>Weekly feedback loop; status discipline</td><td>PropFlo Sales</td><td>Missing outcome updates</td></tr><tr><td><b>R7</b></td><td>Tracking gaps</td><td>Med</td><td>High</td><td class="sev-High">High</td><td>Pre-launch end-to-end test; no launch until passed</td><td>Interon Dev/Tech</td><td>Events not firing in test</td></tr><tr><td><b>R8</b></td><td>Budget pressure</td><td>Med</td><td>Med</td><td class="sev-Medium">Medium</td><td>Controlled daily budgets; monthly review</td><td>Interon Project Lead</td><td>Spend up, qualified leads flat</td></tr><tr><td><b>R9</b></td><td>Advertising platform restrictions</td><td>Med</td><td>Med</td><td class="sev-Medium">Medium</td><td>Prepare documentation; expect verification</td><td>Interon Paid Media</td><td>Account/category checks</td></tr><tr><td><b>R10</b></td><td>Scope overlap / double charge</td><td>High</td><td>Med</td><td class="sev-High">High</td><td>Resolve build-vs-marketing scope before sign-off</td><td>PropFlo Sponsor</td><td>Two quotes for the same site work</td></tr><tr><td><b>R11</b></td><td>Delayed client approvals</td><td>Med</td><td>High</td><td class="sev-High">High</td><td>Approvals log; clear owners and dates</td><td>Interon Project Lead</td><td>Approvals overdue</td></tr><tr><td><b>R12</b></td><td>CRM / lead process failure</td><td>Med</td><td>High</td><td class="sev-High">High</td><td>Confirm lead stages and owner before launch</td><td>PropFlo Sales</td><td>Leads lost or unstaged</td></tr><tr><td><b>R13</b></td><td>Build/marketing timeline mismatch</td><td>High</td><td>Med</td><td class="sev-High">High</td><td>Synchronise build Phase 2 with launch, or interim pages</td><td>PropFlo Sponsor</td><td>Build not live when launch due</td></tr><tr><td><b>R14</b></td><td>Weak or unclear offer</td><td>Med</td><td>High</td><td class="sev-High">High</td><td>Confirm offer structure before spend</td><td>PropFlo Sponsor</td><td>Low conversion despite good traffic</td></tr></tbody></table></div></body></html>

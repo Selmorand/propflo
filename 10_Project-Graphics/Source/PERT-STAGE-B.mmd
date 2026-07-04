@@ -1,0 +1,66 @@
+flowchart LR
+  classDef crit fill:#fff,stroke:#b5322f,stroke-width:3px;
+  classDef norm fill:#fff,stroke:#3f6690,stroke-width:1px;
+  classDef mile fill:#1f2d3d,color:#fff,stroke:#1f2d3d;
+  B0{{"B0: Launch (Day 0)"}}
+  B1["B1: Live running & initial technical monitoring (wk1) (7d)"]
+  B8["B8: Search-term & negative optimisation (continuous) (90d)"]
+  B9["B9: Landing page & ad-copy optimisation (90d)"]
+  B10["B10: SEO content execution (90d)"]
+  B11["B11: Partner outreach & LinkedIn B2B (90d)"]
+  B12["B12: Email & WhatsApp nurture (90d)"]
+  MB7{{"MB7: Day 7 technical & search-term review"}}
+  B2["B2: Live running to Day 14 (7d)"]
+  MB14{{"MB14: Day 14 lead-quality review"}}
+  B3["B3: Live running to Day 30 (16d)"]
+  MB30{{"MB30: Day 30 performance review"}}
+  B4["B4: Live running to Day 45 (15d)"]
+  B13["B13: Meta retargeting activation (traffic-gated) (60d)"]
+  MB45{{"MB45: Day 45 optimisation checkpoint"}}
+  B5["B5: Live running to Day 60 (15d)"]
+  MB60{{"MB60: Day 60 performance & channel review"}}
+  B6["B6: Live running to Day 75 (15d)"]
+  MB75{{"MB75: Day 75 scale-readiness checkpoint"}}
+  B7["B7: Live running to Day 90 (15d)"]
+  MB90{{"MB90: Day 90 formal scale decision"}}
+  B0 --> B1
+  B0 --> B8
+  B0 --> B9
+  B0 --> B10
+  B0 --> B11
+  B0 --> B12
+  B1 --> MB7
+  MB7 --> B2
+  B2 --> MB14
+  MB14 --> B3
+  B3 --> MB30
+  MB30 --> B4
+  MB30 --> B13
+  B4 --> MB45
+  MB45 --> B5
+  B5 --> MB60
+  MB60 --> B6
+  B6 --> MB75
+  MB75 --> B7
+  B7 --> MB90
+  class B0 mile;
+  class B1 crit;
+  class B8 crit;
+  class B9 crit;
+  class B10 crit;
+  class B11 crit;
+  class B12 crit;
+  class MB7 mile;
+  class B2 crit;
+  class MB14 mile;
+  class B3 crit;
+  class MB30 mile;
+  class B4 crit;
+  class B13 crit;
+  class MB45 mile;
+  class B5 crit;
+  class MB60 mile;
+  class B6 crit;
+  class MB75 mile;
+  class B7 crit;
+  class MB90 mile;
