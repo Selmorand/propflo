@@ -1,0 +1,68 @@
+ActivityID,WBS,ActivityName,Stage,StartDay,FinishDay,DurationDays,TotalFloat,Critical,Owner,Milestone
+A0,1.0,Project authorisation,A,0,0,0,0,YES,PropFlo Sponsor,no
+A1,1.1,Kick-off & roles confirmation,A,0,3,2,0,YES,Interon Project Lead,no
+A2,1.2,Stakeholder & sponsor confirmation,A,3,4,1,0,YES,Interon Project Lead,no
+A3,1.5,Commercial scope decision (marketing vs build),A,3,7,3,16,no,PropFlo Sponsor,no
+A4,1.4,Access & assets collection,A,3,17,10,21,no,PropFlo + Interon,no
+A13,2.2,Competitor research,A,3,7,3,13,no,Interon Strategy,no
+A5,1.3,Discovery & compliance information collection,A,4,13,6,0,YES,Interon Strategy + PropFlo Compliance,no
+A34,7.5,Google financial-services verification,A,17,31,10,23,no,Interon Paid Media,no
+A6,3.1,Compliance questions completed,A,13,17,3,0,YES,PropFlo Compliance,no
+A11,2.1,Audience confirmation,A,13,15,2,0,YES,Interon Strategy,no
+A27,6.1,CRM & lead-process preparation,A,13,21,6,25,no,PropFlo Sales + Interon,no
+A7,3.2,Approved claims list,A,17,25,6,0,YES,PropFlo Compliance,no
+A8,3.3,Restricted claims list,A,17,20,2,7,no,PropFlo Compliance,no
+A10,3.5,Privacy & consent wording confirmed,A,17,21,3,6,no,PropFlo Compliance,no
+A12,2.4,Offer confirmation,A,15,18,2,0,YES,Interon Strategy,no
+A16,2.6,Measurement baseline,A,15,18,2,5,no,Interon Paid Media,no
+A9,3.4,Required disclaimers,A,25,29,3,0,YES,PropFlo Compliance,no
+A14,2.3,Keyword research,A,18,22,3,0,YES,Interon Paid Media,no
+M1,3.9,MILESTONE: Compliance & claims approved (GATE),A,29,29,0,0,YES,PropFlo Compliance,YES
+A15,2.4b,Negative keyword research,A,22,25,2,0,YES,Interon Paid Media,no
+A28,6.4,Email & WhatsApp workflow preparation,A,29,34,3,19,no,Interon Content,no
+A35,8.2,SEO foundation content,A,29,41,8,20,no,Interon Content/SEO,no
+A36,8.3,Partner marketing materials & LinkedIn setup,A,29,38,6,22,no,Interon Strategy,no
+M2,2.9,MILESTONE: Strategy approved,A,25,25,0,0,YES,PropFlo Sponsor,YES
+A29,6.5,Lead-handling readiness sign-off,A,34,36,2,19,no,PropFlo Sales,no
+A17,4.1,Landing page planning & sitemap sign-off,A,25,29,3,0,YES,Interon Strategy,no
+A22,5.1,Tracking architecture & plan,A,25,28,2,13,no,Interon Paid Media,no
+A30,7.1,Campaign structure (Google + Meta setup),A,25,28,2,15,no,Interon Paid Media,no
+M5,6.9,MILESTONE: Lead handling ready (GATE),A,36,36,0,19,no,PropFlo Sales,YES
+A18,4.2,Landing page copy & creative,A,29,38,6,0,YES,Interon Content,no
+A23,5.2,GA4 & GTM setup,A,28,32,3,13,no,Interon Dev/Tech,no
+A31,7.3,Ad copy draft,A,29,34,3,14,no,Interon Content,no
+A19,4.2b,Landing page build (interim/platform),A,38,53,11,0,YES,WS4 owner (decision),no
+A20,4.3,Form preparation,A,38,42,3,8,no,Interon Dev/Tech,no
+A24,5.3,Conversion configuration,A,32,35,2,13,no,Interon Paid Media,no
+A32,7.3b,Ad copy approval,A,34,39,4,14,no,PropFlo Compliance,no
+A21,4.7,Landing page QA & approval,A,53,56,2,0,YES,Interon + PropFlo,no
+A25,5.4,Lead-source capture & UTM,A,35,38,2,13,no,Interon Paid Media,no
+M3,4.9,MILESTONE: Landing pages approved (GATE),A,56,56,0,0,YES,PropFlo Sponsor,YES
+A26,5.6,Tracking end-to-end test,A,56,59,2,0,YES,Interon Dev/Tech,no
+M4,5.9,MILESTONE: Tracking approved (GATE),A,59,59,0,0,YES,Interon Project Lead,YES
+A33,7.1b,Campaign build,A,59,63,3,0,YES,Interon Paid Media,no
+M6,7.9,MILESTONE: Campaigns approved,A,63,63,0,0,YES,PropFlo Sponsor,YES
+A37,9.1,Pre-launch testing (form/tracking/technical),A,63,67,3,0,YES,Interon + PropFlo,no
+A38,9.4,Launch checklist sign-off,A,67,69,1,0,YES,Interon + PropFlo,no
+M7,10.0,MILESTONE: Controlled Campaign Launch (Stage B Day 0),A,69,69,0,0,YES,Interon Paid Media,YES
+B0,10.0,MILESTONE: Launch (Day 0),B,69,69,0,0,YES,Interon Paid Media,YES
+B1,10.1,Live running & initial technical monitoring (wk1),B,69,76,7,0,YES,Interon Paid Media,no
+B8,11.1,Search-term & negative optimisation (continuous),B,69,159,90,0,YES,Interon Paid Media,no
+B9,11.2,Landing page & ad-copy optimisation,B,69,159,90,0,YES,Interon Paid Media,no
+B10,11.3,SEO content execution,B,69,159,90,0,YES,Interon Content/SEO,no
+B11,11.4,Partner outreach & LinkedIn B2B,B,69,159,90,0,YES,Interon Strategy,no
+B12,11.5,Email & WhatsApp nurture,B,69,159,90,0,YES,PropFlo Sales + Interon,no
+MB7,10.7,MILESTONE: Day 7 technical & search-term review,B,76,76,0,0,YES,Interon Paid Media,YES
+B2,10.2,Live running to Day 14,B,76,83,7,0,YES,Interon Paid Media,no
+MB14,10.14,MILESTONE: Day 14 lead-quality review,B,83,83,0,0,YES,Interon + PropFlo Sales,YES
+B3,10.3,Live running to Day 30,B,83,99,16,0,YES,Interon Paid Media,no
+MB30,10.30,MILESTONE: Day 30 performance review,B,99,99,0,0,YES,Interon + PropFlo,YES
+B4,10.4,Live running to Day 45,B,99,114,15,0,YES,Interon Paid Media,no
+B13,11.6,Meta retargeting activation (traffic-gated),B,99,159,60,0,YES,Interon Paid Media,no
+MB45,10.45,MILESTONE: Day 45 optimisation checkpoint,B,114,114,0,0,YES,Interon Paid Media,YES
+B5,10.5,Live running to Day 60,B,114,129,15,0,YES,Interon Paid Media,no
+MB60,10.60,MILESTONE: Day 60 performance & channel review,B,129,129,0,0,YES,Interon + PropFlo,YES
+B6,10.6,Live running to Day 75,B,129,144,15,0,YES,Interon Paid Media,no
+MB75,10.75,MILESTONE: Day 75 scale-readiness checkpoint,B,144,144,0,0,YES,Interon + PropFlo,YES
+B7,10.7b,Live running to Day 90,B,144,159,15,0,YES,Interon Paid Media,no
+MB90,10.90,MILESTONE: Day 90 formal scale decision,B,159,159,0,0,YES,Interon + PropFlo Sponsor,YES
