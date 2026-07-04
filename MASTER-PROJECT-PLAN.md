@@ -24,7 +24,7 @@ This plan covers the proposed PropFlo marketing launch programme. It is based on
 
 Personal names are not recorded because they are not yet confirmed. Roles are used throughout.
 
-Note: the brand is written "PropFlo" across all project documents; the working folder is named "ProFlow". The correct spelling must be confirmed before any client-facing material is issued.
+Note: the confirmed brand name is PropFlo, used consistently across all project documents.
 
 ---
 
@@ -530,6 +530,7 @@ Decision logic (summary): scale channels with acceptable cost per qualified/fund
 ## 19. Assumptions
 
 ### Confirmed assumptions
+- The confirmed brand name is PropFlo.
 - PropFlo operates in property bridging finance and helps qualifying sellers explore funding linked to a property sale before transfer.
 - The engagement is with Interon as the marketing provider.
 - The first 90 days are a controlled launch, not a heavy-spend phase.
@@ -548,7 +549,7 @@ Decision logic (summary): scale channels with acceptable cost per qualified/fund
 - Lead owner, response targets, and CRM/lead-tracker.
 - Budget approval and the chosen marketing tier.
 - The build-vs-marketing scope and pricing decisions in Sections 5 and 11.
-- Confirmed brand spelling (PropFlo vs ProFlow) and brand assets.
+- Brand assets (logo, colours).
 - Numeric lead, application, approval, and funded-deal targets.
 
 ---
