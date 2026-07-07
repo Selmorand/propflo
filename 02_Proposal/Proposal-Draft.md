@@ -103,8 +103,8 @@ PropFlo has one primary audience and four secondary audiences. They will not rec
 
 | Audience | Priority | Language | Best channel | Primary CTA |
 |---|---|---|---|---|
-| Property sellers | 1 | Simple, reassuring | Google Search, seller landing page, FAQ, WhatsApp | Check if you qualify |
-| Estate agents | 2 | Practical partner language | LinkedIn, email, partner page, PDF | Request partner information |
+| Estate agents | 1 | Practical partner language | LinkedIn, partner page, email, PDF | Request partner information |
+| Property sellers | 2 | Simple, reassuring | Google Search, seller landing page, FAQ, WhatsApp | Check if you qualify |
 | Conveyancers | 3 | Formal, careful, education-first | LinkedIn, professional email, information page | Request information |
 | Bond originators | 4 | Professional relationship | LinkedIn, direct outreach, partner PDF | Request partner information |
 | Developers and investors | 5 | Commercial | LinkedIn, direct outreach, referrals | Speak to PropFlo |
@@ -225,14 +225,6 @@ For the project to start and run correctly, PropFlo must provide:
 - Qualification criteria and required documents
 - Approved disclaimers, privacy policy, and terms
 - Approval of all public-facing claims
-
-**Access and assets:**
-
-- Logo, brand colours, and existing brand assets
-- Website, hosting, and domain access
-- Google Analytics, Google Tag Manager, Google Ads access
-- Meta Business Manager and LinkedIn page access (if used)
-- CRM or lead tracker access
 
 **Operational:**
 
