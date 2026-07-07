@@ -71,8 +71,8 @@ Range drivers: setup may trim to ~R40,000 if the platform build owns site/tracki
 | Item | Ex VAT |
 |---|---:|
 | Campaign management | R32,000 |
-| Media spend (scale what works) | R30,000–R35,000 (R32,500 mid) |
-| **Month 2 total** | **R64,500 (mid)** |
+| Media spend (scale what works) | R30,000 (default) — up to R35,000 if scaling faster |
+| **Month 2 total (default)** | **R62,000** |
 
 ## 6. Stage B Cost — Month 3 (Days 61–90, ex VAT)
 
@@ -82,7 +82,7 @@ Range drivers: setup may trim to ~R40,000 if the platform build owns site/tracki
 | Media spend (scale proven) | R40,000 |
 | **Month 3 total** | **R72,000** |
 
-**Stage B total: R193,500 ex VAT** (management R96,000 + phased media ~R97,500). Media 90-day range ~R95,000–R100,000 depending on Month-2 pacing.
+**Stage B total: R191,000 ex VAT** (management R96,000 + phased media R95,000, matching `PropFlo-Budget.xlsx` default). Media 90-day range R95,000–R100,000 depending on Month-2 pacing.
 
 ---
 
@@ -90,11 +90,11 @@ Range drivers: setup may trim to ~R40,000 if the platform build owns site/tracki
 
 | Scenario | Setup | Landing pages | Stage B (mgmt + media) | Total ex VAT |
 |---|---:|---:|---:|---:|
-| Low (build delivers pages; setup trimmed) | R40,000 | R0 | R193,500 | **R233,500** |
-| Mid (setup as-is; pages via build) | R55,000 | R0 | R193,500 | **R248,500** |
-| High (setup as-is; marketing builds pages) | R55,000 | R35,000 | R193,500 | **R283,500** |
+| Low (build delivers pages; setup trimmed) | R40,000 | R0 | R191,000 | **R231,000** |
+| Mid (setup as-is; pages via build) | R55,000 | R0 | R191,000 | **R246,000** |
+| High (setup as-is; marketing builds pages) | R55,000 | R35,000 | R191,000 | **R281,000** |
 
-Of each total, Interon fees are: Low R136,000 · Mid R151,000 · High R186,000; the remainder (~R97,500) is media paid to platforms. Optional planning contingency (Section 9) is additional.
+Of each total, Interon fees are: Low R136,000 · Mid R151,000 · High R186,000; the remainder (R95,000) is media paid to platforms. Optional planning contingency (Section 9) is additional. The **High** scenario matches the default in `PropFlo-Budget.xlsx` and the figure shown in `02_Proposal/Proposal-Draft.md §13`.
 
 ---
 
