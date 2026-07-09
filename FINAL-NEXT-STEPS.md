@@ -38,9 +38,10 @@ Open and review these files first:
 1. 00_Admin\Proposal-Meeting-Agenda.md
 2. 00_Admin\Client-Questions-For-Proposal-Meeting.md
 3. 00_Admin\Compliance-Questions.md
-4. 02_Proposal\Proposal-Draft.md
-5. 02_Proposal\Budget-Proposal.md
-6. 02_Proposal\Assumptions-and-Limitations.md
+4. 00_Admin\Advertising-Compliance-Matrix.md
+5. 02_Proposal\Proposal-Draft.md
+6. 02_Proposal\Budget-Proposal.md
+7. 02_Proposal\Assumptions-and-Limitations.md
 
 ## 4. What You Need From PropFlo
 
@@ -48,6 +49,7 @@ Before finalising the proposal, PropFlo must confirm:
 
 - Legal entity details
 - Whether PropFlo is the lender, broker, introducer, platform, or brand
+- Product legal classification (credit agreement, advance against expected sale proceeds, purchase or cession of a future receivable, or other)
 - Registration or compliance details, if applicable
 - Product structure
 - Who qualifies
@@ -56,9 +58,12 @@ Before finalising the proposal, PropFlo must confirm:
 - Repayment process
 - Approval process
 - Payout process
+- Approved and conditional advertising claims
 - Required disclaimers
 - Privacy policy
 - Terms and conditions
+- Consent wording for forms, email, and WhatsApp
+- Referral partner model (introduction only, consent-based, active involvement) and any commission structure requiring legal review
 - Lead handling process
 - Budget comfort level
 - Access and assets
@@ -74,12 +79,16 @@ Can PropFlo support a structured 90-day marketing launch with the correct produc
 Do not launch Google Ads, Meta Ads, LinkedIn Ads, or partner outreach until:
 
 - Compliance questions are answered
+- Product legal classification is confirmed
+- Google financial-product advertising eligibility is confirmed
 - Claims are approved
+- Disclosures are approved
 - Landing pages are approved
 - Tracking is tested
 - Lead handover is confirmed
 - Budget is approved
 - Client sign-off is recorded
+- Advertising Compliance Matrix is updated
 
 ## 7. Recommended Proposal Position
 

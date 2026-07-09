@@ -214,28 +214,73 @@ The proposal presents a recommended default. PropFlo should confirm the followin
 
 Selecting a different option in the workbook will change the programme total. The R281,000 figure in §13 assumes all four defaults above.
 
-## 15. What PropFlo Must Provide
+## 15. Regulatory and Advertising Readiness
 
-For the project to start and run correctly, PropFlo must provide:
+PropFlo operates in a regulated and platform-restricted advertising category. This does not prevent marketing. It creates additional preparation requirements that must be handled before campaigns can be scaled with confidence.
 
-**Business and compliance:**
+Opportunity: PropFlo can build demand through search, content, social media, and partner channels.
+
+Complication: Financial-service marketing has additional platform, disclosure, consent, and referral requirements.
+
+Solution: Establish an approved compliance and marketing framework before significant campaign scaling.
+
+Channel eligibility is conditional in the following way:
+
+- Google Search: high strategic value, activated subject to eligibility confirmation.
+- Meta (Facebook and Instagram): awareness and retargeting under Special Ad Category rules where required.
+- LinkedIn: partner and B2B channel, not primary consumer acquisition.
+- SEO and organic content: subject to the same claims and disclosure controls as paid.
+- Email and WhatsApp: consent-based, POPIA-controlled, never used for cold consumer outreach.
+- Partner referrals: introduction, consent, and application-assistance boundaries defined before scale; any referral remuneration requires legal review.
+
+The key open item is the legal and contractual classification of the PropFlo transaction (credit agreement, advance against expected sale proceeds, purchase or cession of a future receivable, or another structure). Until this is confirmed, some claims and disclosures remain conditional. Interon does not attempt to answer this classification. It is recorded as a required legal and product clarification before campaign scaling.
+
+Interon maintains an internal Advertising Compliance Matrix that records channel eligibility, approved and conditional claims, required disclosures, and the campaign approval workflow. This is an operational control tool. It is shared with PropFlo on request and reviewed with PropFlo whenever a claim, disclosure, or platform status changes.
+
+## 16. Responsibilities and What PropFlo Must Provide
+
+For the project to start and run correctly, both PropFlo and the marketing team have clear responsibilities.
+
+### PropFlo responsibilities
+
+Business and compliance:
 
 - Legal entity details and finance provider status
 - Product terms, fees, and repayment structure
 - Qualification criteria and required documents
+- Registration information and licence numbers where applicable
 - Approved disclaimers, privacy policy, and terms
 - Approval of all public-facing claims
+- Obtain formal legal advice on product classification, referral remuneration, and claim wording where required
+- Ensure operational delivery matches marketing claims
 
-**Operational:**
+Operational:
 
 - Lead owner and notification method
 - Response time target and process
 - Weekly lead quality feedback during launch
 - Regular updates on lead status through to funded or lost
 
+Access and assets are covered separately in `00_Admin/Access-And-Assets-Checklist.md`.
+
+### Marketing team responsibilities
+
+- Maintain the advertising compliance matrix
+- Monitor platform requirements and policy changes
+- Implement approved claims across paid, organic, landing pages, email, WhatsApp, and partner materials
+- Build compliant campaign journeys from ad to secure application
+- Manage consent capture and tracking requirements
+- Document campaign approvals and rejections
+- Monitor advertising rejections and platform warnings
+- Identify issues requiring client or legal clarification
+
+### Disclaimer
+
+Marketing compliance support does not replace formal legal advice. Where interpretation of the underlying financial product, applicable legislation, or referral structure is required, confirmation must be obtained from PropFlo's appointed legal adviser.
+
 Delays in providing this information will delay campaign launch.
 
-## 16. Approval Requirements Before Launch
+## 17. Approval Requirements Before Launch
 
 PropFlo must review and approve, before any campaign goes live:
 
@@ -250,7 +295,7 @@ PropFlo must review and approve, before any campaign goes live:
 
 Interon does not provide legal, financial, or regulatory compliance approval.
 
-## 17. Key Limitations
+## 18. Key Limitations
 
 Marketing can generate awareness, enquiries, and leads. It cannot guarantee:
 
@@ -263,7 +308,7 @@ Campaign performance depends on product clarity, compliance approval, lead respo
 
 The full assumptions and limitations document is provided separately and should be signed with the proposal.
 
-## 18. Contract Position
+## 19. Contract Position
 
 - Minimum term: 3 months
 - Review point: end of month 3
@@ -271,7 +316,7 @@ The full assumptions and limitations document is provided separately and should 
 - Third-party software and platform fees not included unless specifically quoted
 - Payment terms and start date to be confirmed on acceptance
 
-## 19. Recommended Next Step
+## 20. Recommended Next Step
 
 The next step is a discovery and compliance meeting.
 
@@ -285,7 +330,7 @@ The purpose of the meeting is to confirm:
 
 After this meeting, Interon will finalise the client-facing proposal, confirm the budget scenario chosen, and issue the implementation plan for sign-off.
 
-## 20. Supporting Documents
+## 21. Supporting Documents
 
 This proposal is accompanied by:
 

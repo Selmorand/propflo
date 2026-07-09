@@ -31,9 +31,10 @@ The system should support:
 
 Used for client information, NDA notes, meeting notes, compliance questions, approvals, and internal admin.
 
-Key file:
+Key files:
 
 - Compliance-Questions.md
+- Advertising-Compliance-Matrix.md
 
 ### 01_Strategy
 
@@ -175,12 +176,15 @@ Use this order:
 Do not launch advertising until these are complete:
 
 - Compliance questions answered
+- Product legal and contractual classification confirmed
+- Google financial-product advertising eligibility confirmed
 - Approved claims confirmed
 - Disclaimers confirmed
 - Landing page approved
 - Tracking tested
 - Lead handover agreed
 - Client approval received
+- Advertising Compliance Matrix updated with current channel and claim status
 
 ## 5. Current Status
 

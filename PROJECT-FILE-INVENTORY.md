@@ -23,6 +23,7 @@ Folder:
 Files:
 
 - Compliance-Questions.md
+- Advertising-Compliance-Matrix.md
 - Access-And-Assets-Checklist.md
 - Client-Questions-For-Proposal-Meeting.md
 - Proposal-Meeting-Agenda.md

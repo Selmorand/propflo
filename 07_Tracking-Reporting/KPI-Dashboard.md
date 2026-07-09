@@ -135,7 +135,30 @@ Track:
 - Top landing pages
 - Content-assisted leads
 
-## 11. Monthly Report Questions
+## 11. Compliance and Platform Health
+
+This is an operational monitoring section, not a lead metric. It sits alongside the main funnel metrics, not in place of them.
+
+Track:
+
+- Number of campaigns submitted
+- Number approved first time
+- Number rejected
+- Rejection reason
+- Average time from draft to approval
+- Landing pages requiring changes
+- Consent capture rate on forms
+- Unsubscribe rate on email
+- WhatsApp opt-in rate
+- Complaints received
+- Platform warnings received
+- Account restrictions
+- Partner referral consent completeness
+- Expired or outdated claims requiring review
+
+Detailed status and approvals are recorded in `00_Admin/Advertising-Compliance-Matrix.md` and `00_Admin/Approval-Records/Approval-Log.md`.
+
+## 12. Monthly Report Questions
 
 Each monthly report should answer:
 
@@ -153,7 +176,7 @@ Each monthly report should answer:
 12. How many deals were funded?
 13. What should change next month?
 
-## 12. Monthly Summary Format
+## 13. Monthly Summary Format
 
 Use this simple structure:
 
@@ -165,7 +188,7 @@ Use this simple structure:
 - Budget recommendation
 - Risks or blockers
 
-## 13. Starting Recommendation
+## 14. Starting Recommendation
 
 Do not report only on advertising platform data.
 

@@ -12,26 +12,34 @@ PropFlo should not rely on one channel only.
 
 The recommended channel mix is:
 
-- Google Search Ads for direct high-intent leads
+- Google Search Ads for direct high-intent leads, subject to platform eligibility
 - SEO content for long-term visibility and trust
 - Estate agent referrals for high-trust partner leads
 - Conveyancer referrals for professional credibility
-- Meta retargeting for follow-up awareness
-- LinkedIn for partner marketing
-- Email and WhatsApp for lead nurturing
+- Meta (Facebook and Instagram) for awareness, education, retargeting and initial enquiries
+- LinkedIn for partner acquisition, credibility and B2B business development
+- Email and WhatsApp for consent-based lead nurturing
 - Reporting and CRM tracking for performance management
+
+Financial-service marketing has additional platform, disclosure, consent, and referral requirements. Channel eligibility, approved claims, disclosures, and the campaign approval workflow are recorded in `00_Admin/Advertising-Compliance-Matrix.md`.
 
 ## 2. Google Search Ads
 
 ### Role
 
-Primary direct lead generation channel.
+High-priority direct lead generation channel, subject to confirmation that the PropFlo product structure and contractual terms meet applicable Google financial-product advertising policies.
 
 ### Why It Matters
 
 Google Search captures people who are already looking for bridging finance, property seller finance, or help accessing sale proceeds before transfer.
 
 These people usually have stronger intent than people seeing a random social media advert.
+
+### Eligibility Status
+
+Google may classify the product under its personal-loan advertising policy. If that classification applies, requirements typically include a minimum repayment period of 61 days, disclosure of minimum and maximum periods, disclosure of the maximum APR or equivalent locally calculated rate, a representative example of cost and fees, and a clearly available physical business address on the destination page. Advertiser and business verification also apply.
+
+Google Search is not activated until product classification, contract periods, fee model, address disclosure, and verification are confirmed. Current status is tracked in `00_Admin/Advertising-Compliance-Matrix.md`.
 
 ### Example Search Themes
 
@@ -167,17 +175,23 @@ Use a respectful education-first approach.
 
 Do not push aggressive sales language.
 
-## 6. Meta Retargeting
+## 6. Meta (Facebook and Instagram)
 
 ### Role
 
-Support channel for people who already visited the website.
+Awareness, education, retargeting, and initial enquiry channel. Not the primary lead source at launch.
 
 ### Why It Matters
 
-Some visitors will not enquire on the first visit.
+Some visitors will not enquire on the first visit. Retargeting can bring them back when they are ready. Meta also reaches sellers who are not yet actively searching but are becoming aware of transfer-period cash-flow problems.
 
-Retargeting can remind them of the solution and bring them back when they are ready.
+### Eligibility and Restrictions
+
+Meta allows lending and financial-service advertising subject to restrictions. Financial-service advertising typically runs under the Financial Products and Services Special Ad Category where required, with adult targeting and restricted audience-targeting options. Misleading or aggressive financial claims are not permitted. Sensitive financial information is not collected directly through Meta lead forms.
+
+### Recommended Funnel
+
+Ad, then educational landing page, then eligibility enquiry, then consent-based follow-up, then secure application process.
 
 ### Recommended Use
 
@@ -198,19 +212,23 @@ Retargeting can remind them of the solution and bring them back when they are re
 
 Do not use Meta as the main lead source at first.
 
-Use it mainly for retargeting and education.
+Use it mainly for awareness, retargeting, and education.
 
 ## 7. LinkedIn
 
 ### Role
 
-Partner marketing and credibility building.
+Partner acquisition, credibility, business development, and property-industry relationships. Not positioned as a primary direct consumer acquisition channel.
 
 ### Why It Matters
 
-LinkedIn is useful for reaching estate agency owners, property professionals, conveyancers, developers, and business decision-makers.
+LinkedIn is useful for reaching estate agency principals, estate agents, conveyancing firms, property developers, bond originators, and relevant property-sector partners.
 
-It is probably better for B2B partner development than direct seller leads.
+It is better for B2B partner development than direct seller leads.
+
+### Eligibility and Restrictions
+
+Financial product advertising on LinkedIn may require a privacy policy, accurate contact information, legally required disclosures, repayment and cost information where applicable, and adult targeting. Organic partner content and direct outreach should be established before heavy paid financial-product advertising.
 
 ### Recommended Use
 
@@ -236,13 +254,17 @@ Begin with organic LinkedIn and direct outreach before heavy paid LinkedIn adver
 
 ### Role
 
-Lead nurturing and conversion support.
+Consent-based nurture, enquiry follow-up, process communication, and reminders. Not used as unrestricted cold outreach.
 
 ### Why It Matters
 
 Many leads need explanation before they continue.
 
-Email can send useful information, document checklists, next steps, and reminders.
+Email can send useful information, document checklists, next steps, and reminders where the recipient has given consent.
+
+### Eligibility and Restrictions
+
+POPIA direct marketing rules apply. Consent must be recorded with source, date, and channel permission. An unsubscribe mechanism and suppression list are required. Consumer email lists are not purchased.
 
 ### Recommended Use
 
@@ -270,7 +292,7 @@ Do not over-automate before the sales process is understood.
 
 ### Role
 
-Fast response and human support.
+Consent-based conversation and nurturing channel. Suitable for answering questions, explaining the process, sharing document checklists, scheduling appointments, sending application reminders, and communicating progress updates.
 
 ### Why It Matters
 
@@ -278,12 +300,20 @@ For urgent finance enquiries, WhatsApp may be more effective than email.
 
 Many South African users prefer quick WhatsApp communication.
 
+### Eligibility and Restrictions
+
+WhatsApp communication is a consent-based direct marketing channel. Opt-in must be recorded. Opt-out and suppression are required. Cold outbound WhatsApp broadcasts to consumers are not used.
+
+Sensitive information moves into an approved secure application or document-upload process. Ordinary WhatsApp conversations are not the main collection point for identity documents, financial records, full banking information, or property transaction documentation.
+
 ### Recommended Use
 
 - Callback confirmation
-- Document checklist
+- Document checklist communication
+- Appointment scheduling
+- Application reminders
+- Progress updates
 - Sales handover
-- Application follow-up
 - Partner referrals
 
 ### Risks
@@ -291,7 +321,7 @@ Many South African users prefer quick WhatsApp communication.
 - Consent and opt-out requirements
 - Manual handling load
 - Poor message control
-- Sensitive personal information
+- Sensitive personal information exposure if used as an intake channel
 
 ### Starting Recommendation
 
@@ -299,7 +329,7 @@ Use WhatsApp carefully.
 
 Start with simple approved scripts.
 
-Do not collect sensitive financial information casually over WhatsApp unless the client confirms the process is acceptable.
+Do not collect sensitive financial information over WhatsApp. Move sensitive information into an approved secure application process.
 
 ## 10. Channel Priority
 
@@ -331,7 +361,6 @@ Do not collect sensitive financial information casually over WhatsApp unless the
 
 Do not prioritise these at the beginning:
 
-- TikTok
 - Large social media posting volume
 - Expensive LinkedIn ads
 - Broad awareness campaigns
@@ -339,6 +368,8 @@ Do not prioritise these at the beginning:
 - Influencer marketing
 - Mass email campaigns
 - Complicated automation before the lead process is proven
+
+TikTok is not treated as an initial priority. It may be potentially available for licensed and compliant financial-service advertisers in South Africa with adult targeting and relevant platform requirements. It is reassessed as a later-stage channel once Google Search intent and partner channels are stable, rather than removed from future planning entirely.
 
 ## 12. Main Principle
 

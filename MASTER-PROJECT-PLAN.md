@@ -460,6 +460,12 @@ Probability/impact: L/M/H. Severity is the combined view.
 | R12 | CRM / lead process failure | M | H | High | Confirm lead stages and owner before launch | PropFlo Sales | Leads lost or unstaged |
 | R13 | Build/marketing timeline mismatch | H | M | High | Synchronise build Phase 2 with marketing launch, or agree interim pages | PropFlo Sponsor | Build not live when launch due |
 | R14 | Weak or unclear offer | M | H | High | Confirm offer structure before spend | PropFlo Sponsor | Low conversion despite good traffic |
+| R15 | Google product classification unresolved | H | H | High | Confirm product structure, contract period, fee model, and disclosure requirements before Google Search launch. Track in `00_Admin/Advertising-Compliance-Matrix.md` | Interon Paid Media + PropFlo Sponsor | Google verification queries; personal-loan policy notices |
+| R16 | Unsupported or unapproved marketing claims used publicly | M | H | High | Approved claims library and campaign approval workflow applied to ads, landing pages, organic posts, brochures, email, WhatsApp, partner materials | Interon Strategy | Reviewer flags non-listed claim; platform rejection referencing claim |
+| R17 | Direct marketing without proper POPIA consent | M | H | High | Consent capture with source and date, opt-out mechanism, suppression list, no purchased consumer lists | Interon Automation | Complaints, unsubscribes on unsent lists, ICO/Information Regulator queries |
+| R18 | Sensitive documents collected through unsuitable channels | M | H | High | Move sensitive intake into an approved secure application and document-upload process; WhatsApp used for conversation only | PropFlo Sales + Interon Automation | Identity or banking documents received over WhatsApp or email |
+| R19 | Improperly structured referral commissions | M | H | High | Legal review before any commission-based partner programme launches; partner tiers defined (introduction only, consent-based referral, active involvement) | PropFlo Sponsor | Partner requests commercial terms before legal review |
+| R20 | Marketing promises inconsistent with operations | M | H | High | PropFlo factual approval and evidence requirements for speed, funding percentage, and availability claims before use | PropFlo Sponsor | Complaints about turnaround; platform rejections referencing promised timing |
 
 ---
 

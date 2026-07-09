@@ -171,7 +171,41 @@ This month focused on testing Google Search Ads, reviewing lead quality, and imp
 
 - 
 
-## 10. Issues and Limitations
+## 10. Compliance and Platform Health
+
+Keep this section concise. It reports operational health, not lead metrics.
+
+| Metric | Result |
+|---|---:|
+| Campaigns submitted | |
+| Approved first time | |
+| Rejected | |
+| Landing pages requiring changes | |
+| Average time from draft to approval | |
+| Consent capture rate on forms | |
+| Email unsubscribe rate | |
+| WhatsApp opt-in rate | |
+| Complaints received | |
+| Platform warnings received | |
+| Account restrictions | |
+| Partner referral consent completeness | |
+| Expired or outdated claims requiring review | |
+
+### Main Rejection Reasons
+
+- 
+
+### Compliance Actions Taken
+
+- 
+
+### Compliance Actions Recommended
+
+- 
+
+Detailed records are held in `00_Admin/Advertising-Compliance-Matrix.md` and `00_Admin/Approval-Records/Approval-Log.md`.
+
+## 11. Issues and Limitations
 
 Include anything that affected performance.
 
@@ -186,7 +220,7 @@ Examples:
 - Poor lead response time
 - Incomplete CRM updates
 
-## 11. Recommendations for Next Month
+## 12. Recommendations for Next Month
 
 ### Campaign Recommendations
 
@@ -208,7 +242,7 @@ Examples:
 
 - 
 
-## 12. Next Month Action List
+## 13. Next Month Action List
 
 | Action | Owner | Deadline | Status |
 |---|---|---|---|
@@ -216,7 +250,7 @@ Examples:
 | | | | |
 | | | | |
 
-## 13. Final Notes
+## 14. Final Notes
 
 The goal is to improve qualified leads and funded deals, not only increase clicks or enquiries.
 

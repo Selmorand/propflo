@@ -28,11 +28,13 @@ Controlled campaign launch, early optimisation, SEO content, and partner outreac
 
 Improve lead quality, scale working channels, reduce wasted spend, and prepare the next-stage growth plan.
 
-## 3. Month 1: Foundation
+## 3. Month 1 (Days 1 to 30): Foundation and Readiness
 
 ### Goal
 
 Prepare the marketing system before spending money on ads.
+
+Paid media can be prepared during this period but should not be scaled before the relevant approvals are complete.
 
 ### Key Tasks
 
@@ -53,6 +55,23 @@ Prepare the marketing system before spending money on ads.
 - Prepare keyword and negative keyword lists
 - Prepare first ad copy drafts
 - Prepare partner outreach framework
+
+### Compliance Readiness Tasks
+
+- Confirm product legal and contractual structure
+- Obtain registration details
+- Obtain fee structure
+- Obtain contractual periods
+- Confirm Google financial-product advertising eligibility
+- Establish approved claims library
+- Establish disclosure library
+- Confirm consent wording for forms, email, and WhatsApp
+- Define secure application and document-upload process
+- Define partner referral model (introduction only, consent-based, active involvement)
+- Create campaign approval workflow
+- Prepare compliant landing page requirements
+
+Detailed status is tracked in `00_Admin/Advertising-Compliance-Matrix.md`.
 
 ### Required Client Input
 
@@ -83,11 +102,11 @@ By the end of Month 1, the project should have:
 - Lead handling process
 - Launch checklist
 
-## 4. Month 2: Controlled Launch
+## 4. Month 2 (Days 31 to 60): Controlled Launch
 
 ### Goal
 
-Launch with controlled spend and gather real data.
+Launch channels that have passed eligibility checks, with controlled spend, and gather real data.
 
 ### Key Tasks
 
@@ -101,14 +120,23 @@ Launch with controlled spend and gather real data.
 - Load negative keywords
 - Load approved ad copy
 - Test conversions
-- Launch Google Search Ads
+- Launch Google Search Ads only if eligibility is confirmed
+- Launch Meta awareness and retargeting where policy and creative are approved
+- Begin LinkedIn partner activity (organic first)
 - Review search terms regularly
 - Review lead quality weekly
 - Add negative keywords
 - Pause poor traffic
 - Improve landing page wording if needed
 - Start first SEO content item
-- Start small partner outreach list
+- Start small controlled partner outreach list
+
+### Compliance and Approval Tracking
+
+- Implement consent-based nurture workflows for email and WhatsApp
+- Track campaign submissions, approvals, rejections and rejection reasons
+- Record final approved copy, creative, and landing page for every live campaign
+- Refresh the advertising compliance matrix as approvals and rejections come in
 
 ### Month 2 Output
 
@@ -122,11 +150,11 @@ By the end of Month 2, the project should have:
 - Initial SEO content started
 - Initial partner outreach started
 
-## 5. Month 3: Optimisation And Scaling
+## 5. Month 3 (Days 61 to 90): Optimisation and Scale
 
 ### Goal
 
-Improve what works and reduce what does not.
+Improve what works and reduce what does not. Scale budget only where campaign, lead handling and compliance processes are stable.
 
 ### Key Tasks
 
@@ -135,13 +163,19 @@ Improve what works and reduce what does not.
 - Review applications
 - Review approvals
 - Review funded deals, if available
+- Review platform rejection history
+- Review campaign-to-funded-deal conversion
 - Improve keyword targeting
 - Expand successful keyword groups
 - Reduce poor-performing ad groups
 - Improve landing page FAQs
 - Improve form questions
+- Improve disclosures based on user questions
+- Update FAQ content
+- Expand approved claims library where evidence supports new claims
 - Publish more SEO content
-- Continue partner outreach
+- Refine partner programme
+- Automate compliant follow-up processes
 - Prepare monthly report
 - Prepare 90-day review
 - Recommend next-stage budget

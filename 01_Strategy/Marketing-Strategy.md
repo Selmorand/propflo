@@ -77,9 +77,11 @@ PropFlo marketing must answer these concerns clearly:
 
 ### Google Search Ads
 
-Primary direct lead channel.
+High-priority direct lead channel.
 
 This captures people already searching for bridging finance, property seller finance, or access to sale proceeds before transfer.
+
+Google Search advertising will be activated subject to product eligibility, platform policy compliance and approval. Product classification, contract periods, fee structure, and business address disclosure must be confirmed before Search campaigns go live. Current status is tracked in `00_Admin/Advertising-Compliance-Matrix.md`.
 
 ### SEO Content
 
@@ -99,25 +101,54 @@ High-trust partner channel.
 
 Conveyancers are close to the transaction process, but messaging must be careful and professional.
 
-### Meta Retargeting
+### Meta (Facebook and Instagram)
 
-Support channel.
+Awareness, education, retargeting, and initial enquiry channel.
 
-Used to re-engage people who visited the website but did not enquire.
+Meta allows financial-service advertising subject to restrictions. Where required, campaigns run under the Financial Products and Services Special Ad Category, with adult targeting and appropriate targeting rules. Meta is not used as the primary lead source at launch, and sensitive application information is not collected through Meta lead forms.
 
 ### LinkedIn
 
-Partner and credibility channel.
+Partner acquisition, credibility, and business development channel.
 
-Used for estate agency principals, conveyancers, bond originators, and property professionals.
+Used for estate agency principals, conveyancers, bond originators, property developers, and property professionals. Not positioned as a primary direct consumer acquisition channel. Where paid financial product ads are run, privacy policy, contact information, adult targeting, and any required cost disclosures must be in place.
+
+### TikTok
+
+Later-stage consideration.
+
+Potentially available for licensed and compliant financial-service advertisers in South Africa, with adult targeting. Not recommended as an initial priority because Google Search intent and partner channels are currently stronger opportunities. Reassessed after the core channels are stable.
 
 ### Email and WhatsApp Follow-Up
 
-Conversion support channel.
+Consent-based nurture, enquiry follow-up, process communication, and reminders.
 
-Used to guide leads through the next steps after enquiry, subject to consent and POPIA requirements.
+Used only where recorded consent exists. Not used as unrestricted cold outreach. WhatsApp is a conversation and reminder channel, not the collection point for identity documents, banking information, or full sale documentation. Sensitive documents move into an approved secure application process.
 
-## 8. First 90-Day Plan
+## 8. Regulatory and Advertising Readiness
+
+PropFlo operates in a regulated and platform-restricted advertising category. This does not prevent marketing. It creates additional preparation requirements that must be handled before campaigns can be scaled with confidence.
+
+The strategic position is:
+
+1. PropFlo can build demand through search, content, social media, and partner channels.
+2. Financial-service marketing has additional platform, disclosure, consent, and referral requirements.
+3. An approved compliance and marketing framework is established before significant campaign scaling.
+
+The key open item is the legal and contractual classification of the PropFlo transaction. Until this is confirmed, some claims and disclosures remain conditional, and Google Search campaigns are marked pending eligibility rather than guaranteed available.
+
+Channel eligibility is conditional in the following way:
+
+- Google Search: high strategic value, activated subject to eligibility confirmation.
+- Meta: awareness and retargeting under Special Ad Category rules where required.
+- LinkedIn: partner and B2B channel, not primary consumer acquisition.
+- SEO and organic content: subject to the same claims and disclosure controls as paid.
+- Email and WhatsApp: consent-based, POPIA-controlled, never used for cold consumer outreach.
+- Partner referrals: introduction, consent, and application-assistance boundaries defined before scale; any referral remuneration requires legal review.
+
+PropFlo is responsible for accurate product information, registration details, fees and contractual terms, eligibility criteria, and formal legal advice where required. The marketing team is responsible for maintaining the advertising compliance matrix, applying approved claims, running the campaign approval workflow, and monitoring platform requirements and rejections. Detailed operational controls sit in `00_Admin/Advertising-Compliance-Matrix.md`.
+
+## 9. First 90-Day Plan
 
 ### Month 1: Foundation
 
@@ -148,7 +179,7 @@ Used to guide leads through the next steps after enquiry, subject to consent and
 - Improve partner process.
 - Report on qualified leads, applications, approvals, and funded deals.
 
-## 9. Success Metrics
+## 10. Success Metrics
 
 The campaign should not be judged by likes or clicks only.
 
@@ -166,7 +197,7 @@ Main metrics:
 - Lead response time
 - Referral partner leads
 
-## 10. Initial Recommendation
+## 11. Initial Recommendation
 
 Start with a controlled 90-day launch.
 
